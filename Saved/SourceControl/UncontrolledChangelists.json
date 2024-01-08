@@ -1,0 +1,42 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/davo_/Documents/Unreal Projects/SpatialAudioSandbox/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"C:/Users/davo_/Documents/Unreal Projects/SpatialAudioSandbox/Content/FirstPerson/Blueprints/BP_osc.uasset",
+				"C:/Users/davo_/Documents/Unreal Projects/SpatialAudioSandbox/Content/FirstPerson/Blueprints/BP_GetRelLocActorObserver.uasset",
+				"C:/Users/davo_/Documents/Unreal Projects/SpatialAudioSandbox/Content/FirstPerson/Maps/FirstPersonMap.umap",
+				"C:/Users/davo_/Documents/Unreal Projects/SpatialAudioSandbox/Content/FirstPerson/Blueprints/BP_dBGetRelLocActorObserver.uasset",
+				"C:/Users/davo_/Documents/Unreal Projects/SpatialAudioSandbox/Content/FirstPerson/Blueprints/BP_MeyerGetRelLocActorObserver.uasset",
+				"C:/Users/davo_/Documents/Unreal Projects/SpatialAudioSandbox/Content/FirstPerson/Blueprints/OSC_HUD.uasset",
+				"C:/Users/davo_/Documents/Unreal Projects/SpatialAudioSandbox/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/3M/4ATOKH0ZGPCVBS85MPKAXK.uasset",
+				"C:/Users/davo_/Documents/Unreal Projects/SpatialAudioSandbox/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/UE/YUZ9741T50O1SYRX90OB0S.uasset",
+				"C:/Users/davo_/Documents/Unreal Projects/SpatialAudioSandbox/Content/FirstPerson/Blueprints/OSC_Distance/BP_MeyerOSC_XY_Spread.uasset",
+				"C:/Users/davo_/Documents/Unreal Projects/SpatialAudioSandbox/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/U2/W3PAW535DUMXFQTYVJHG6I.uasset",
+				"C:/Users/davo_/Documents/Unreal Projects/SpatialAudioSandbox/Content/FirstPerson/Blueprints/OSC_Distance/BP_SpaceMapGo_OSC_XY_Spread.uasset",
+				"C:/Users/davo_/Documents/Unreal Projects/SpatialAudioSandbox/Content/FirstPerson/Blueprints/OSC_Distance/BP_Soundscape_OSC_XY_Spread1.uasset",
+				"C:/Users/davo_/Documents/Unreal Projects/SpatialAudioSandbox/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/8C/6262KYABKVCYDS1UCFB0P9.uasset",
+				"C:/Users/davo_/Documents/Unreal Projects/SpatialAudioSandbox/Content/FirstPerson/Blueprints/OSC_Distance/BP_Soundscape_OSC_XY_Spread.uasset",
+				"C:/Users/davo_/Documents/Unreal Projects/SpatialAudioSandbox/Content/FirstPerson/Blueprints/OSC_Distance/BP_LIsa_OSC_XY_Spread.uasset",
+				"C:/Users/davo_/Documents/Unreal Projects/SpatialAudioSandbox/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/8P/UGRKYY8I5XEKWL3GSCOV4S.uasset",
+				"C:/Users/davo_/Documents/Unreal Projects/SpatialAudioSandbox/Content/FirstPerson/Blueprints/OSC_Distance/BP_LIsa_OSC.uasset",
+				"C:/Users/davo_/Documents/Unreal Projects/SpatialAudioSandbox/Content/FirstPerson/Blueprints/OSC_Distance/BP_Soundscape_OSC.uasset",
+				"C:/Users/davo_/Documents/Unreal Projects/SpatialAudioSandbox/Content/FirstPerson/Blueprints/OSC_Distance/BP_SpaceMapGo_OSC.uasset",
+				"C:/Users/davo_/Documents/Unreal Projects/SpatialAudioSandbox/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/FC/XP8JF5CCGWPRN6HL5OEC0E.uasset",
+				"C:/Users/davo_/Documents/Unreal Projects/SpatialAudioSandbox/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/I5/LVGNUTWGL4KSOX9BPEA0ES.uasset",
+				"C:/Users/davo_/Documents/Unreal Projects/SpatialAudioSandbox/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/FX/UVBQXTZYIHQV3N381BS5ZF.uasset",
+				"C:/Users/davo_/Documents/Unreal Projects/SpatialAudioSandbox/Content/FirstPerson/Blueprints/OSC_Distance/BP_dbOSC_XY_Spread.uasset",
+				"C:/Users/davo_/Documents/Unreal Projects/SpatialAudioSandbox/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/35/AMLT1W7J07YTLX9B21GA3F.uasset",
+				"C:/Users/davo_/Documents/Unreal Projects/SpatialAudioSandbox/Content/FirstPerson/Blueprints/OSC_Distance/BP_MeyerOSC_XY_Spread1.uasset",
+				"C:/Users/davo_/Documents/Unreal Projects/SpatialAudioSandbox/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/SN/Q4JAE5A1X20WIVWI5HX1QO.uasset",
+				"C:/Users/davo_/Documents/Unreal Projects/SpatialAudioSandbox/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/MV/KHIVKHIZ3FFXIY8N21LWG8.uasset",
+				"C:/Users/davo_/Documents/Unreal Projects/SpatialAudioSandbox/Content/FirstPerson/Blueprints/OSC_Distance/BP_CalcRelLocation.uasset",
+				"C:/Users/davo_/Documents/Unreal Projects/SpatialAudioSandbox/Content/FirstPerson/Blueprints/OSC_Distance/BP_dbOSC_XYSpread.uasset",
+				"C:/Users/davo_/Documents/Unreal Projects/SpatialAudioSandbox/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5.uasset"
+			]
+		}
+	]
+}
