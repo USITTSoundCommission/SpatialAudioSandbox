@@ -1,0 +1,108 @@
+{
+	"FileVersion": 1,
+	"FriendlyName": "Wwise Unreal Engine Integration",
+	"Version": 202312904,
+	"VersionName": "2023.1.1.8417.2904",
+	"CreatedBy": "Audiokinetic, Inc.",
+	"CreatedByURL": "http://audiokinetic.com",
+	"EngineVersion": "5.3.0",
+	"Description": "Wwise integration for Unreal Engine",
+	"Category": "Audio",
+	"EnabledByDefault": true,
+	"Modules": [
+		{
+			"Name": "Wwise",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen"
+		},
+		{
+			"Name": "AkAudio",
+			"Type": "Runtime",
+			"LoadingPhase": "None"
+		},
+		{
+			"Name": "AkAudioMixer",
+			"Type": "Runtime",
+			"LoadingPhase": "None"
+		},
+		{
+			"Name": "AudiokineticTools",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "WwiseConcurrency",
+			"Type": "Runtime",
+			"LoadingPhase": "None"
+		},
+		{
+			"Name": "WwiseEngineUtils",
+			"Type": "Runtime",
+			"LoadingPhase": "None"
+		},
+		{
+			"Name": "WwiseFileHandler",
+			"Type": "Runtime",
+			"LoadingPhase": "None"
+		},
+		{
+			"Name": "WwiseObjectUtils",
+			"Type": "Runtime",
+			"LoadingPhase": "None"
+		},
+		{
+			"Name": "WwiseObstructionOcclusion",
+			"Type": "Runtime",
+			"LoadingPhase": "None"
+		},
+		{
+			"Name": "WwiseProcessing",
+			"Type": "Runtime",
+			"LoadingPhase": "None"
+		},
+		{
+			"Name": "WwiseProjectDatabase",
+			"Type": "UncookedOnly",
+			"LoadingPhase": "None"
+		},
+		{
+			"Name": "WwiseReconcile",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "WwiseResourceCooker",
+			"Type": "UncookedOnly",
+			"LoadingPhase": "None"
+		},
+		{
+			"Name": "WwiseResourceLoader",
+			"Type": "Runtime",
+			"LoadingPhase": "None"
+		},
+		{
+			"Name": "WwiseSoundEngine",
+			"Type": "Runtime",
+			"LoadingPhase": "None"
+		},
+		{
+			"Name": "WwiseSimpleExternalSource",
+			"Type": "Runtime",
+			"LoadingPhase": "None"
+		},
+		{
+			"Name": "WwiseUtils",
+			"Type": "Runtime",
+			"LoadingPhase": "None"
+		}
+	],
+	"Plugins":
+	[
+		{
+			"Name": "GeometryMode",
+			"Enabled": true
+		}
+	],
+
+	"CanContainContent" : true
+}
