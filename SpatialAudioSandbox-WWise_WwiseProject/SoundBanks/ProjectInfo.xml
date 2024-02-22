@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="SpatialAudioSandbox-WWise_WwiseProject" GUID="{A6584FB5-858A-42A2-BB6C-A5A32F714113}" Generator="2023.1.1.8417"/>
+	<CacheRoot>../.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{BD50D91B-59A8-4E41-987E-765B0D499A19}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{E30FF50A-98DA-4923-8A8F-3869994EB43E}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{1249F798-CE3D-452B-9542-35F59DA85397}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{405E7781-E2F8-C01A-D47E-4BE9140E58F5}</FileHash>
+</ProjectInfo>

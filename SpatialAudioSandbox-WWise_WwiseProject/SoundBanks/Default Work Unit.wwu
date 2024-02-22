@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A344793F-53A4-4BDB-B54E-84AE6E7EAD2D}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{A344793F-53A4-4BDB-B54E-84AE6E7EAD2D}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{DE07EF51-D195-4CE4-B130-9A15D6E01AA7}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Default Work Unit" ID="{ADA39258-85DE-4106-A009-616AA34FA283}" WorkUnitID="{ADA39258-85DE-4106-A009-616AA34FA283}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Wtest_Thunder_6" ID="{E8CCD497-9632-42ED-A063-AE89EE6432FF}" WorkUnitID="{ADA39258-85DE-4106-A009-616AA34FA283}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Wtest_Children_7" ID="{0B25FAE1-7FDA-44B4-8F6C-9169340FAD14}" WorkUnitID="{ADA39258-85DE-4106-A009-616AA34FA283}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Wtest_Truck_2" ID="{CBC94994-B38F-45CA-A9DD-26DE104BD72F}" WorkUnitID="{ADA39258-85DE-4106-A009-616AA34FA283}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Wtest_Birds_1" ID="{B46BFBB8-3B75-473E-8839-FD2D05DA03FE}" WorkUnitID="{ADA39258-85DE-4106-A009-616AA34FA283}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Wtest_Fountain_3" ID="{D0182924-CCB0-4A90-ACF3-020CB9E18DC9}" WorkUnitID="{ADA39258-85DE-4106-A009-616AA34FA283}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Wtest_Rain_5" ID="{447D24FA-DE43-4DCC-A465-31B555538FAC}" WorkUnitID="{ADA39258-85DE-4106-A009-616AA34FA283}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Wtest_Insects_4" ID="{3080448C-1E39-4E43-BDF2-A22321E25630}" WorkUnitID="{ADA39258-85DE-4106-A009-616AA34FA283}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

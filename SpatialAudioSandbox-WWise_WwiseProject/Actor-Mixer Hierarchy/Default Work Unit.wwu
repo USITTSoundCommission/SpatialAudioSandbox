@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{ADA39258-85DE-4106-A009-616AA34FA283}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{ADA39258-85DE-4106-A009-616AA34FA283}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Wtest_Thunder_6" ID="{E8CCD497-9632-42ED-A063-AE89EE6432FF}" ShortID="877765256">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{426BF6EB-78DC-4930-8CDF-4FA11AF0E562}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{063A9662-5507-4CE2-89D0-DF453CB6AEEA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="THUNDER_Thunder THR01_05" ID="{CA64AE4A-59EA-4716-BD97-09FBE47A0FBD}">
+							<Language>SFX</Language>
+							<AudioFile>THUNDER_Thunder THR01_05.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="119272923"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="THUNDER_Thunder THR01_05" ID="{CA64AE4A-59EA-4716-BD97-09FBE47A0FBD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Wtest_Children_7" ID="{0B25FAE1-7FDA-44B4-8F6C-9169340FAD14}" ShortID="555149376">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{426BF6EB-78DC-4930-8CDF-4FA11AF0E562}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{063A9662-5507-4CE2-89D0-DF453CB6AEEA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="WALLA_CHILDREN_FranceChildren WSS04_04" ID="{4D9D94EB-5B26-4880-A8C7-3D601E561860}">
+							<Language>SFX</Language>
+							<AudioFile>WALLA_CHILDREN_FranceChildren WSS04_04.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="560494665"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="WALLA_CHILDREN_FranceChildren WSS04_04" ID="{4D9D94EB-5B26-4880-A8C7-3D601E561860}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Wtest_Birds_1" ID="{B46BFBB8-3B75-473E-8839-FD2D05DA03FE}" ShortID="674673381">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{426BF6EB-78DC-4930-8CDF-4FA11AF0E562}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{063A9662-5507-4CE2-89D0-DF453CB6AEEA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="BIRDS_AnimalSeagull TE01_20_2" ID="{6BC90499-0186-45AD-9D5A-D3C14E7C236C}">
+							<Language>SFX</Language>
+							<AudioFile>BIRDS_AnimalSeagull TE01_20_2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="611825303"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="BIRDS_AnimalSeagull TE01_20_2" ID="{6BC90499-0186-45AD-9D5A-D3C14E7C236C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Wtest_Truck_2" ID="{CBC94994-B38F-45CA-A9DD-26DE104BD72F}" ShortID="857301468">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{426BF6EB-78DC-4930-8CDF-4FA11AF0E562}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{063A9662-5507-4CE2-89D0-DF453CB6AEEA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="CITY_SPECIFIC_AMBUrbn_Sanitation Truck Idling Slamming Dumpsters On City Service Road_James Mello_MyHmCS_United States" ID="{55901C5E-2D9D-469B-A633-3BB6EBEC5C54}">
+							<Language>SFX</Language>
+							<AudioFile>CITY_SPECIFIC_AMBUrbn_Sanitation Truck Idling Slamming Dumpsters On City Service Road_James Mello_MyHmCS_United States.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="362099386"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="CITY_SPECIFIC_AMBUrbn_Sanitation Truck Idling Slamming Dumpsters On City Service Road_James Mello_MyHmCS_United States" ID="{55901C5E-2D9D-469B-A633-3BB6EBEC5C54}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Wtest_Fountain_3" ID="{D0182924-CCB0-4A90-ACF3-020CB9E18DC9}" ShortID="663948606">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{426BF6EB-78DC-4930-8CDF-4FA11AF0E562}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{063A9662-5507-4CE2-89D0-DF453CB6AEEA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="FOUNTAIN_SI-DIGI-X-1_4_1" ID="{C4374F78-92AD-4E50-82CC-E571EFDEF32C}">
+							<Language>SFX</Language>
+							<AudioFile>FOUNTAIN_SI-DIGI-X-1_4_1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="107465972"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="FOUNTAIN_SI-DIGI-X-1_4_1" ID="{C4374F78-92AD-4E50-82CC-E571EFDEF32C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Wtest_Rain_5" ID="{447D24FA-DE43-4DCC-A465-31B555538FAC}" ShortID="189955568">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{426BF6EB-78DC-4930-8CDF-4FA11AF0E562}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{063A9662-5507-4CE2-89D0-DF453CB6AEEA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="RAIN_SPECIFIC_AMB_INT_Rain_Down_Gutter" ID="{815C76CB-EB5A-4FF4-BF03-0DD8C9028971}">
+							<Language>SFX</Language>
+							<AudioFile>RAIN_SPECIFIC_AMB_INT_Rain_Down_Gutter.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="93938369"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="RAIN_SPECIFIC_AMB_INT_Rain_Down_Gutter" ID="{815C76CB-EB5A-4FF4-BF03-0DD8C9028971}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Wtest_Insects_4" ID="{3080448C-1E39-4E43-BDF2-A22321E25630}" ShortID="324711433">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{426BF6EB-78DC-4930-8CDF-4FA11AF0E562}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{063A9662-5507-4CE2-89D0-DF453CB6AEEA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="INSECTS_CITY-NIGHT_6EXT8-10622 (1)" ID="{186F314B-A78B-42C6-9EA0-C166DFFC52FD}">
+							<Language>SFX</Language>
+							<AudioFile>INSECTS_CITY-NIGHT_6EXT8-10622 (1).wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="42202842"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="INSECTS_CITY-NIGHT_6EXT8-10622 (1)" ID="{186F314B-A78B-42C6-9EA0-C166DFFC52FD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

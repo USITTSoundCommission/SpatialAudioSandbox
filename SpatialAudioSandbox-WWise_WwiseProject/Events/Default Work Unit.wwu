@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9FF9180B-C7A4-47D5-BFFC-609FD43797E0}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{9FF9180B-C7A4-47D5-BFFC-609FD43797E0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Wtest_Birds_1" ID="{9D41F6F6-1BC5-42D5-AA1E-5163644A5915}">
+					<ChildrenList>
+						<Action Name="" ID="{3D6E4FCF-8374-488A-BF18-8DDB6759D36F}" ShortID="26191859">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wtest_Birds_1" ID="{B46BFBB8-3B75-473E-8839-FD2D05DA03FE}" WorkUnitID="{ADA39258-85DE-4106-A009-616AA34FA283}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Wtest_Children_7" ID="{05F1D442-ADFE-4433-A97C-5534B260F6C6}">
+					<ChildrenList>
+						<Action Name="" ID="{13E0D194-E071-4E2D-9A5E-CDCCF2CF8A31}" ShortID="1017429363">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wtest_Children_7" ID="{0B25FAE1-7FDA-44B4-8F6C-9169340FAD14}" WorkUnitID="{ADA39258-85DE-4106-A009-616AA34FA283}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Wtest_Fountain_3" ID="{A7761FB2-F59D-49DD-B89E-CE32BE934ED9}">
+					<ChildrenList>
+						<Action Name="" ID="{5AA7250E-D0F9-4B49-B97C-928F041C2B64}" ShortID="151442484">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wtest_Fountain_3" ID="{D0182924-CCB0-4A90-ACF3-020CB9E18DC9}" WorkUnitID="{ADA39258-85DE-4106-A009-616AA34FA283}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Wtest_Insects_4" ID="{55966359-D4E1-423B-9B5F-5FD8060FC883}">
+					<ChildrenList>
+						<Action Name="" ID="{F1B8147B-3FD8-492D-B800-3D407D7275EA}" ShortID="1027603014">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wtest_Insects_4" ID="{3080448C-1E39-4E43-BDF2-A22321E25630}" WorkUnitID="{ADA39258-85DE-4106-A009-616AA34FA283}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Wtest_Rain_5" ID="{1EAA5428-8E77-4332-9108-E1E985AAA1CE}">
+					<ChildrenList>
+						<Action Name="" ID="{BC4025FA-D282-4490-A22D-4693F2C76730}" ShortID="455332751">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wtest_Rain_5" ID="{447D24FA-DE43-4DCC-A465-31B555538FAC}" WorkUnitID="{ADA39258-85DE-4106-A009-616AA34FA283}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Wtest_Thunder_6" ID="{3618733D-AD03-4E81-A6CB-8960D1746B54}">
+					<ChildrenList>
+						<Action Name="" ID="{8F12A006-48B3-45F0-9AA3-EEA7FC1AB622}" ShortID="515026391">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wtest_Thunder_6" ID="{E8CCD497-9632-42ED-A063-AE89EE6432FF}" WorkUnitID="{ADA39258-85DE-4106-A009-616AA34FA283}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Wtest_Truck_2" ID="{37E1C3B4-F0B9-4F2F-A261-F09DD33FCAFB}">
+					<ChildrenList>
+						<Action Name="" ID="{9564F873-64DE-49B4-B278-092E53ADD8D1}" ShortID="399810692">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wtest_Truck_2" ID="{CBC94994-B38F-45CA-A9DD-26DE104BD72F}" WorkUnitID="{ADA39258-85DE-4106-A009-616AA34FA283}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
