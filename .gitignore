@@ -72,3 +72,17 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+.DS_Store
+Config/.DS_Store
+Content/.DS_Store
+Content/FirstPerson/.DS_Store
+Content/FirstPersonArms/.DS_Store
+Content/FPWeapon/.DS_Store
+Content/LevelPrototyping/.DS_Store
+Content/StarterContent/.DS_Store
+Plugins/.DS_Store
+Plugins/Wwise/.DS_Store
+Plugins/WwiseNiagara/.DS_Store
+SpatialAudioSandbox-WWise_WwiseProject/.DS_Store
+SpatialAudioSandbox-WWise_WwiseProject/GeneratedSoundBanks/.DS_Store
+SpatialAudioSandbox-WWise_WwiseProject/Originals/.DS_Store
