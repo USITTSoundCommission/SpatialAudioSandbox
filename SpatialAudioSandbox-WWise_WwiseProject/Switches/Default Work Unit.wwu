@@ -1,6 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{036269B5-CD31-415F-8B81-5F65E321B2FE}" SchemaVersion="119">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{036269B5-CD31-415F-8B81-5F65E321B2FE}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{036269B5-CD31-415F-8B81-5F65E321B2FE}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="SG_AudioChannel" ID="{DADBAD6A-CD87-499D-88DC-B08BBA51BCD9}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="SW_AudioChannel_01" ID="{B71FA500-E44A-4ED8-857A-9209F3DE2869}"/>
+						<Switch Name="SW_AudioChannel_02" ID="{0AE9985B-168A-4936-B493-2246FC9F4D91}"/>
+						<Switch Name="SW_AudioChannel_03" ID="{66FE8366-55E9-4ADA-82F8-2720B740FD04}"/>
+						<Switch Name="SW_AudioChannel_04" ID="{5D9806C1-95C1-487E-BC60-5F2F591E691F}"/>
+						<Switch Name="SW_AudioChannel_05" ID="{08A399C1-E537-4AAB-951B-00BBB4911935}"/>
+						<Switch Name="SW_AudioChannel_06" ID="{D5F60837-2AC6-495B-B95D-8967C9535293}"/>
+						<Switch Name="SW_AudioChannel_07" ID="{A6F5CBE1-A84B-497E-BD73-DEC0C133AA5F}"/>
+						<Switch Name="SW_AudioChannel_08" ID="{C1B662FC-C58F-464F-88C2-6553A4626C3E}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="GP_AudioChannel" ID="{5B3C69EE-C501-42B9-9140-7802AF75E34D}"/>
+						<Curve Name="" ID="{ED406DDE-F604-4B48-A20F-BD215154BF5B}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>1</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>2</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>3</XPos>
+									<YPos>3</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>4</XPos>
+									<YPos>4</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>5</XPos>
+									<YPos>5</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>6</XPos>
+									<YPos>6</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>7</XPos>
+									<YPos>7</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>8</XPos>
+									<YPos>8</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>
