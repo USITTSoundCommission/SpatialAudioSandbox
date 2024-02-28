@@ -1,6 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{F14F601A-0B51-45BA-82AB-39E07AA93950}" SchemaVersion="119">
 	<Metadatas>
-		<WorkUnit Name="Default Work Unit" ID="{F14F601A-0B51-45BA-82AB-39E07AA93950}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{F14F601A-0B51-45BA-82AB-39E07AA93950}" PersistMode="Standalone">
+			<ChildrenList>
+				<Metadata Name="Channel_Router_Settings_Ch_01" ID="{29BC6222-D58E-40B8-A542-01AC5357109E}" PluginName="Channel Router Settings" CompanyID="0" PluginID="903" PluginType="9"/>
+				<Metadata Name="Channel_Router_Settings_Ch_02" ID="{82ED94B9-CAA6-438A-81EF-EDF953C28E99}" PluginName="Channel Router Settings" CompanyID="0" PluginID="903" PluginType="9">
+					<PropertyList>
+						<Property Name="Channel" Type="Uint32" Value="2"/>
+					</PropertyList>
+				</Metadata>
+				<Metadata Name="Channel_Router_Settings_Ch_03" ID="{3B8A7393-EC23-412B-875D-EF6F6457C2B3}" PluginName="Channel Router Settings" CompanyID="0" PluginID="903" PluginType="9">
+					<PropertyList>
+						<Property Name="Channel" Type="Uint32" Value="3"/>
+					</PropertyList>
+				</Metadata>
+				<Metadata Name="Channel_Router_Settings_Ch_04" ID="{D4459A92-ADEB-4A41-8C79-1471C0BA75E9}" PluginName="Channel Router Settings" CompanyID="0" PluginID="903" PluginType="9">
+					<PropertyList>
+						<Property Name="Channel" Type="Uint32" Value="4"/>
+					</PropertyList>
+				</Metadata>
+				<Metadata Name="Channel_Router_Settings_Ch_05" ID="{3F0CD41F-085D-4CF0-96F7-F36C4DD7B3AA}" PluginName="Channel Router Settings" CompanyID="0" PluginID="903" PluginType="9">
+					<PropertyList>
+						<Property Name="Channel" Type="Uint32" Value="5"/>
+					</PropertyList>
+				</Metadata>
+				<Metadata Name="Channel_Router_Settings_Ch_06" ID="{69694A33-B334-4E23-8C60-754BFAC7591C}" PluginName="Channel Router Settings" CompanyID="0" PluginID="903" PluginType="9">
+					<PropertyList>
+						<Property Name="Channel" Type="Uint32" Value="6"/>
+					</PropertyList>
+				</Metadata>
+				<Metadata Name="Channel_Router_Settings_Ch_07" ID="{9226C553-1B3C-4215-9B34-C02452791A5C}" PluginName="Channel Router Settings" CompanyID="0" PluginID="903" PluginType="9">
+					<PropertyList>
+						<Property Name="Channel" Type="Uint32" Value="7"/>
+					</PropertyList>
+				</Metadata>
+				<Metadata Name="Channel_Router_Settings_Ch_08" ID="{F2F41F68-1048-46A9-9839-70FC9E80990D}" PluginName="Channel Router Settings" CompanyID="0" PluginID="903" PluginType="9">
+					<PropertyList>
+						<Property Name="Channel" Type="Uint32" Value="8"/>
+					</PropertyList>
+				</Metadata>
+			</ChildrenList>
+		</WorkUnit>
 	</Metadatas>
 </WwiseDocument>
