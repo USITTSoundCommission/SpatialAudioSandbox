@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1A142F3A-2AF1-43E0-B68C-452219ABC82C}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Test Tones" ID="{1A142F3A-2AF1-43E0-B68C-452219ABC82C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Tone_330Hz_SFX_Ch_03" ID="{F057B0D3-382D-4D2F-9F23-F8EFD5826F7D}" ShortID="54755227">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{426BF6EB-78DC-4930-8CDF-4FA11AF0E562}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Child Channel Router Audio Bus" ID="{25FA4D88-F8AF-4B7E-BCAA-127121660E61}" WorkUnitID="{063A9662-5507-4CE2-89D0-DF453CB6AEEA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Tone Generator" ID="{0118456B-2D71-4B28-A9D6-AFB5B5A20278}" ShortID="679493497" PluginName="Wwise Tone Generator" CompanyID="0" PluginID="102">
+							<PropertyList>
+								<Property Name="StartFreq" Type="Real32" Value="330"/>
+								<Property Name="StopFreq" Type="Real32" Value="460"/>
+								<Property Name="SweepFreqType" Type="int32" Value="1"/>
+							</PropertyList>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Metadata">
+							<Reference PluginName="Channel Router Settings" CompanyID="0" PluginID="903" PluginType="9">
+								<ObjectRef Name="Channel_Router_Settings_Ch_03" ID="{3B8A7393-EC23-412B-875D-EF6F6457C2B3}" WorkUnitID="{F14F601A-0B51-45BA-82AB-39E07AA93950}"/>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="Tone Generator" ID="{0118456B-2D71-4B28-A9D6-AFB5B5A20278}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Tone_220Hz_SFX_Ch_02" ID="{8A82C9A6-6841-477F-AC39-15DD6C0119FD}" ShortID="710873652">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{426BF6EB-78DC-4930-8CDF-4FA11AF0E562}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Child Channel Router Audio Bus" ID="{25FA4D88-F8AF-4B7E-BCAA-127121660E61}" WorkUnitID="{063A9662-5507-4CE2-89D0-DF453CB6AEEA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Tone Generator" ID="{5B703414-7F3E-453C-B2DC-52F69FDABA06}" ShortID="966258840" PluginName="Wwise Tone Generator" CompanyID="0" PluginID="102">
+							<PropertyList>
+								<Property Name="StartFreq" Type="Real32" Value="220"/>
+								<Property Name="StopFreq" Type="Real32" Value="460"/>
+								<Property Name="SweepFreqType" Type="int32" Value="1"/>
+							</PropertyList>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Metadata">
+							<Reference PluginName="Channel Router Settings" CompanyID="0" PluginID="903" PluginType="9">
+								<ObjectRef Name="Channel_Router_Settings_Ch_02" ID="{82ED94B9-CAA6-438A-81EF-EDF953C28E99}" WorkUnitID="{F14F601A-0B51-45BA-82AB-39E07AA93950}"/>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="Tone Generator" ID="{5B703414-7F3E-453C-B2DC-52F69FDABA06}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Tone_110Hz_SFX_Ch_01" ID="{89E0587D-7C70-454C-99C7-62EAFAA40D23}" ShortID="524712810">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{426BF6EB-78DC-4930-8CDF-4FA11AF0E562}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Child Channel Router Audio Bus" ID="{25FA4D88-F8AF-4B7E-BCAA-127121660E61}" WorkUnitID="{063A9662-5507-4CE2-89D0-DF453CB6AEEA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Tone Generator" ID="{8C9EB9EC-9BF4-4DB5-A174-ABDD663B7F58}" ShortID="784506826" PluginName="Wwise Tone Generator" CompanyID="0" PluginID="102">
+							<PropertyList>
+								<Property Name="StartFreq" Type="Real32" Value="110"/>
+								<Property Name="StopFreq" Type="Real32" Value="460"/>
+								<Property Name="SweepFreqType" Type="int32" Value="1"/>
+							</PropertyList>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Metadata">
+							<Reference PluginName="Channel Router Settings" CompanyID="0" PluginID="903" PluginType="9">
+								<ObjectRef Name="Channel_Router_Settings_Ch_01" ID="{29BC6222-D58E-40B8-A542-01AC5357109E}" WorkUnitID="{F14F601A-0B51-45BA-82AB-39E07AA93950}"/>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="Tone Generator" ID="{8C9EB9EC-9BF4-4DB5-A174-ABDD663B7F58}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Tone_880Hz_SFX_Ch_07" ID="{6AF46037-316E-4C61-9D2B-E06FCCCB90B2}" ShortID="984031829">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{426BF6EB-78DC-4930-8CDF-4FA11AF0E562}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Child Channel Router Audio Bus" ID="{25FA4D88-F8AF-4B7E-BCAA-127121660E61}" WorkUnitID="{063A9662-5507-4CE2-89D0-DF453CB6AEEA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Tone Generator" ID="{6092E8FC-9E6F-446C-AFE2-641698A39E04}" ShortID="994921790" PluginName="Wwise Tone Generator" CompanyID="0" PluginID="102">
+							<PropertyList>
+								<Property Name="StartFreq" Type="Real32" Value="880"/>
+								<Property Name="StopFreq" Type="Real32" Value="460"/>
+								<Property Name="SweepFreqType" Type="int32" Value="1"/>
+							</PropertyList>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Metadata">
+							<Reference PluginName="Channel Router Settings" CompanyID="0" PluginID="903" PluginType="9">
+								<ObjectRef Name="Channel_Router_Settings_Ch_07" ID="{9226C553-1B3C-4215-9B34-C02452791A5C}" WorkUnitID="{F14F601A-0B51-45BA-82AB-39E07AA93950}"/>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="Tone Generator" ID="{6092E8FC-9E6F-446C-AFE2-641698A39E04}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Tone_440Hz_SFX_Ch_04" ID="{65E2BCBC-B791-4034-A431-0E0334EC8761}" ShortID="321869877">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{426BF6EB-78DC-4930-8CDF-4FA11AF0E562}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Child Channel Router Audio Bus" ID="{25FA4D88-F8AF-4B7E-BCAA-127121660E61}" WorkUnitID="{063A9662-5507-4CE2-89D0-DF453CB6AEEA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Tone Generator" ID="{A294742E-4067-4A7C-A01C-8DB491A36139}" ShortID="65955923" PluginName="Wwise Tone Generator" CompanyID="0" PluginID="102">
+							<PropertyList>
+								<Property Name="StartFreq" Type="Real32" Value="440"/>
+								<Property Name="StopFreq" Type="Real32" Value="460"/>
+								<Property Name="SweepFreqType" Type="int32" Value="1"/>
+							</PropertyList>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Metadata">
+							<Reference PluginName="Channel Router Settings" CompanyID="0" PluginID="903" PluginType="9">
+								<ObjectRef Name="Channel_Router_Settings_Ch_04" ID="{D4459A92-ADEB-4A41-8C79-1471C0BA75E9}" WorkUnitID="{F14F601A-0B51-45BA-82AB-39E07AA93950}"/>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="Tone Generator" ID="{A294742E-4067-4A7C-A01C-8DB491A36139}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Tone_660Hz_SFX_Ch_06" ID="{AC8C7483-996C-4F88-8C6C-73E2ECB89182}" ShortID="564787109">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{426BF6EB-78DC-4930-8CDF-4FA11AF0E562}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Child Channel Router Audio Bus" ID="{25FA4D88-F8AF-4B7E-BCAA-127121660E61}" WorkUnitID="{063A9662-5507-4CE2-89D0-DF453CB6AEEA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Tone Generator" ID="{6A81D88A-E22B-43C5-9A88-F9575A1CA1B3}" ShortID="340309885" PluginName="Wwise Tone Generator" CompanyID="0" PluginID="102">
+							<PropertyList>
+								<Property Name="StartFreq" Type="Real32" Value="660"/>
+								<Property Name="StopFreq" Type="Real32" Value="460"/>
+								<Property Name="SweepFreqType" Type="int32" Value="1"/>
+							</PropertyList>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Metadata">
+							<Reference PluginName="Channel Router Settings" CompanyID="0" PluginID="903" PluginType="9">
+								<ObjectRef Name="Channel_Router_Settings_Ch_06" ID="{69694A33-B334-4E23-8C60-754BFAC7591C}" WorkUnitID="{F14F601A-0B51-45BA-82AB-39E07AA93950}"/>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="Tone Generator" ID="{6A81D88A-E22B-43C5-9A88-F9575A1CA1B3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Tone_550Hz_SFX_Ch_05" ID="{2851CF2D-D6B0-4FD0-9F1A-2FC5BEB2A24E}" ShortID="405317685">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{426BF6EB-78DC-4930-8CDF-4FA11AF0E562}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Child Channel Router Audio Bus" ID="{25FA4D88-F8AF-4B7E-BCAA-127121660E61}" WorkUnitID="{063A9662-5507-4CE2-89D0-DF453CB6AEEA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Tone Generator" ID="{0FA28343-0EA6-412E-B260-FED5117913A0}" ShortID="448864458" PluginName="Wwise Tone Generator" CompanyID="0" PluginID="102">
+							<PropertyList>
+								<Property Name="StartFreq" Type="Real32" Value="550"/>
+								<Property Name="StopFreq" Type="Real32" Value="460"/>
+								<Property Name="SweepFreqType" Type="int32" Value="1"/>
+							</PropertyList>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Metadata">
+							<Reference PluginName="Channel Router Settings" CompanyID="0" PluginID="903" PluginType="9">
+								<ObjectRef Name="Channel_Router_Settings_Ch_05" ID="{3F0CD41F-085D-4CF0-96F7-F36C4DD7B3AA}" WorkUnitID="{F14F601A-0B51-45BA-82AB-39E07AA93950}"/>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="Tone Generator" ID="{0FA28343-0EA6-412E-B260-FED5117913A0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Tone_1100Hz_SFX_Ch_08" ID="{8322784C-3B99-4BC1-8BF2-065055272C03}" ShortID="1068991207">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{426BF6EB-78DC-4930-8CDF-4FA11AF0E562}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Child Channel Router Audio Bus" ID="{25FA4D88-F8AF-4B7E-BCAA-127121660E61}" WorkUnitID="{063A9662-5507-4CE2-89D0-DF453CB6AEEA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Tone Generator" ID="{AC9B2CF0-6C93-433B-80DB-75BB9C4290E1}" ShortID="583199144" PluginName="Wwise Tone Generator" CompanyID="0" PluginID="102">
+							<PropertyList>
+								<Property Name="StartFreq" Type="Real32" Value="1100"/>
+								<Property Name="StopFreq" Type="Real32" Value="460"/>
+								<Property Name="SweepFreqType" Type="int32" Value="1"/>
+							</PropertyList>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Metadata">
+							<Reference PluginName="Channel Router Settings" CompanyID="0" PluginID="903" PluginType="9">
+								<ObjectRef Name="Channel_Router_Settings_Ch_08" ID="{F2F41F68-1048-46A9-9839-70FC9E80990D}" WorkUnitID="{F14F601A-0B51-45BA-82AB-39E07AA93950}"/>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="Tone Generator" ID="{AC9B2CF0-6C93-433B-80DB-75BB9C4290E1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

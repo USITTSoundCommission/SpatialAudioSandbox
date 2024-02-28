@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{493D93D0-AE7F-47E1-9970-25DFFA1469B8}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Test Tones" ID="{493D93D0-AE7F-47E1-9970-25DFFA1469B8}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Tone_880Hz_SFX_Ch_07" ID="{E7145265-A5C1-4725-BCAA-D8E4EB62D555}">
+					<ChildrenList>
+						<Action Name="" ID="{A1B483F0-C57B-42EA-B875-E9D96E5017C9}" ShortID="155417561">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tone_880Hz_SFX_Ch_07" ID="{6AF46037-316E-4C61-9D2B-E06FCCCB90B2}" WorkUnitID="{1A142F3A-2AF1-43E0-B68C-452219ABC82C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Tone_1100Hz_SFX_Ch_08" ID="{2ED0503C-C15E-4B75-9B29-AC70CB2BE297}">
+					<ChildrenList>
+						<Action Name="" ID="{81742CE0-C6C1-4F89-8F26-483F6CF0149A}" ShortID="338580341">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tone_1100Hz_SFX_Ch_08" ID="{8322784C-3B99-4BC1-8BF2-065055272C03}" WorkUnitID="{1A142F3A-2AF1-43E0-B68C-452219ABC82C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Tone_660Hz_SFX_Ch_06" ID="{3668B856-988C-4800-ABFF-36446C92B377}">
+					<ChildrenList>
+						<Action Name="" ID="{A55723F8-5B27-48DD-BD72-D7692BD4C3B9}" ShortID="883877791">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tone_660Hz_SFX_Ch_06" ID="{AC8C7483-996C-4F88-8C6C-73E2ECB89182}" WorkUnitID="{1A142F3A-2AF1-43E0-B68C-452219ABC82C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Tone_550Hz_SFX_Ch_05" ID="{284D1219-2D59-4B82-BE9B-F0A8B27870A0}">
+					<ChildrenList>
+						<Action Name="" ID="{6343A922-1B8D-4F80-884A-D10C260A4E94}" ShortID="116094574">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tone_550Hz_SFX_Ch_05" ID="{2851CF2D-D6B0-4FD0-9F1A-2FC5BEB2A24E}" WorkUnitID="{1A142F3A-2AF1-43E0-B68C-452219ABC82C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Tone_110Hz_SFX_Ch_01" ID="{17D65FE8-B461-41E2-A950-D139E6EA32A8}">
+					<ChildrenList>
+						<Action Name="" ID="{03548952-D38C-4135-8ADD-A24D325A1918}" ShortID="117977838">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tone_110Hz_SFX_Ch_01" ID="{89E0587D-7C70-454C-99C7-62EAFAA40D23}" WorkUnitID="{1A142F3A-2AF1-43E0-B68C-452219ABC82C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Tone_220Hz_SFX_Ch_02" ID="{DE26DBDC-6D5E-4BEF-9B65-7CB5911F6E53}">
+					<ChildrenList>
+						<Action Name="" ID="{5333ED92-E139-42BF-A2E6-225D3D4E51BB}" ShortID="741221778">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tone_220Hz_SFX_Ch_02" ID="{8A82C9A6-6841-477F-AC39-15DD6C0119FD}" WorkUnitID="{1A142F3A-2AF1-43E0-B68C-452219ABC82C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Tone_330Hz_SFX_Ch_03" ID="{EEE13D6D-BDBD-4102-A9FB-EA5D435367AB}">
+					<ChildrenList>
+						<Action Name="" ID="{F46A2EDD-5313-4B59-BA2A-ACEE7D8E34F7}" ShortID="326540071">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tone_330Hz_SFX_Ch_03" ID="{F057B0D3-382D-4D2F-9F23-F8EFD5826F7D}" WorkUnitID="{1A142F3A-2AF1-43E0-B68C-452219ABC82C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Tone_440Hz_SFX_Ch_04" ID="{1F628C5E-8148-4807-B89F-DE3E0B6F9773}">
+					<ChildrenList>
+						<Action Name="" ID="{ACF77D4A-DE1B-49E8-915E-94189E2387D9}" ShortID="39061828">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tone_440Hz_SFX_Ch_04" ID="{65E2BCBC-B791-4034-A431-0E0334EC8761}" WorkUnitID="{1A142F3A-2AF1-43E0-B68C-452219ABC82C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
