@@ -20,9 +20,16 @@
 								<MediaID ID="119272923"/>
 							</MediaIDList>
 						</AudioFileSource>
+						<AudioFileSource Name="THUNDER_Thunder THR01_05_MONO" ID="{8E980E38-036F-45B4-AF43-184D6116140A}">
+							<Language>SFX</Language>
+							<AudioFile>THUNDER_Thunder THR01_05_MONO.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="616567313"/>
+							</MediaIDList>
+						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="THUNDER_Thunder THR01_05" ID="{CA64AE4A-59EA-4716-BD97-09FBE47A0FBD}" Platform="Linked"/>
+						<ActiveSource Name="THUNDER_Thunder THR01_05_MONO" ID="{8E980E38-036F-45B4-AF43-184D6116140A}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Wtest_Children_7" ID="{0B25FAE1-7FDA-44B4-8F6C-9169340FAD14}" ShortID="555149376">
@@ -53,7 +60,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{426BF6EB-78DC-4930-8CDF-4FA11AF0E562}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{063A9662-5507-4CE2-89D0-DF453CB6AEEA}"/>
+							<ObjectRef Name="Child Channel Router Audio Bus" ID="{25FA4D88-F8AF-4B7E-BCAA-127121660E61}" WorkUnitID="{063A9662-5507-4CE2-89D0-DF453CB6AEEA}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -64,9 +71,25 @@
 								<MediaID ID="611825303"/>
 							</MediaIDList>
 						</AudioFileSource>
+						<AudioFileSource Name="BIRDS_AnimalSeagull TE01_20_2_MONO" ID="{EBB74FE7-636C-4528-B2AD-13E98222AF8D}">
+							<Language>SFX</Language>
+							<AudioFile>BIRDS_AnimalSeagull TE01_20_2_MONO.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="375029077"/>
+							</MediaIDList>
+						</AudioFileSource>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Metadata">
+							<Reference>
+								<Custom>
+									<Metadata Name="Channel Router Settings (Custom)" ID="{5CD56ECC-BF59-401D-9FCA-6AA5432BA7A6}" ShortID="957500616" PluginName="Channel Router Settings" CompanyID="0" PluginID="903" PluginType="9"/>
+								</Custom>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 					<ActiveSourceList>
-						<ActiveSource Name="BIRDS_AnimalSeagull TE01_20_2" ID="{6BC90499-0186-45AD-9D5A-D3C14E7C236C}" Platform="Linked"/>
+						<ActiveSource Name="BIRDS_AnimalSeagull TE01_20_2_MONO" ID="{EBB74FE7-636C-4528-B2AD-13E98222AF8D}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Wtest_Truck_2" ID="{CBC94994-B38F-45CA-A9DD-26DE104BD72F}" ShortID="857301468">
@@ -86,9 +109,16 @@
 								<MediaID ID="362099386"/>
 							</MediaIDList>
 						</AudioFileSource>
+						<AudioFileSource Name="CITY_SPECIFIC_AMBUrbn_Sanitation Truck Idling Slamming Dumpsters On City Service Road_James Mello_MyHmCS_United States_MONO" ID="{5438E727-2B99-4530-B831-1B09D0E8FAA8}">
+							<Language>SFX</Language>
+							<AudioFile>CITY_SPECIFIC_AMBUrbn_Sanitation Truck Idling Slamming Dumpsters On City Service Road_James Mello_MyHmCS_United States_MONO.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1056186512"/>
+							</MediaIDList>
+						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="CITY_SPECIFIC_AMBUrbn_Sanitation Truck Idling Slamming Dumpsters On City Service Road_James Mello_MyHmCS_United States" ID="{55901C5E-2D9D-469B-A633-3BB6EBEC5C54}" Platform="Linked"/>
+						<ActiveSource Name="CITY_SPECIFIC_AMBUrbn_Sanitation Truck Idling Slamming Dumpsters On City Service Road_James Mello_MyHmCS_United States_MONO" ID="{5438E727-2B99-4530-B831-1B09D0E8FAA8}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Wtest_Fountain_3" ID="{D0182924-CCB0-4A90-ACF3-020CB9E18DC9}" ShortID="663948606">
@@ -108,9 +138,16 @@
 								<MediaID ID="107465972"/>
 							</MediaIDList>
 						</AudioFileSource>
+						<AudioFileSource Name="FOUNTAIN_SI-DIGI-X-1_4_1_MONO" ID="{359DBC24-E36F-4C22-9916-EEEB9D4AE90E}">
+							<Language>SFX</Language>
+							<AudioFile>FOUNTAIN_SI-DIGI-X-1_4_1_MONO.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="71831613"/>
+							</MediaIDList>
+						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="FOUNTAIN_SI-DIGI-X-1_4_1" ID="{C4374F78-92AD-4E50-82CC-E571EFDEF32C}" Platform="Linked"/>
+						<ActiveSource Name="FOUNTAIN_SI-DIGI-X-1_4_1_MONO" ID="{359DBC24-E36F-4C22-9916-EEEB9D4AE90E}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Wtest_Rain_5" ID="{447D24FA-DE43-4DCC-A465-31B555538FAC}" ShortID="189955568">
@@ -130,9 +167,16 @@
 								<MediaID ID="93938369"/>
 							</MediaIDList>
 						</AudioFileSource>
+						<AudioFileSource Name="RAIN_SPECIFIC_AMB_INT_Rain_Down_Gutter_MONO" ID="{58C9BFFE-B67D-4F42-8D0F-3D112E5CEAF4}">
+							<Language>SFX</Language>
+							<AudioFile>RAIN_SPECIFIC_AMB_INT_Rain_Down_Gutter_MONO.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1054646150"/>
+							</MediaIDList>
+						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="RAIN_SPECIFIC_AMB_INT_Rain_Down_Gutter" ID="{815C76CB-EB5A-4FF4-BF03-0DD8C9028971}" Platform="Linked"/>
+						<ActiveSource Name="RAIN_SPECIFIC_AMB_INT_Rain_Down_Gutter_MONO" ID="{58C9BFFE-B67D-4F42-8D0F-3D112E5CEAF4}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Wtest_Insects_4" ID="{3080448C-1E39-4E43-BDF2-A22321E25630}" ShortID="324711433">
@@ -152,9 +196,58 @@
 								<MediaID ID="42202842"/>
 							</MediaIDList>
 						</AudioFileSource>
+						<AudioFileSource Name="INSECTS_CITY-NIGHT_6EXT8-10622 (1)_MONO" ID="{DBCFF185-C0F5-47B3-9DA5-A740B8678005}">
+							<Language>SFX</Language>
+							<AudioFile>INSECTS_CITY-NIGHT_6EXT8-10622 (1)_MONO.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="37111965"/>
+							</MediaIDList>
+						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="INSECTS_CITY-NIGHT_6EXT8-10622 (1)" ID="{186F314B-A78B-42C6-9EA0-C166DFFC52FD}" Platform="Linked"/>
+						<ActiveSource Name="INSECTS_CITY-NIGHT_6EXT8-10622 (1)_MONO" ID="{DBCFF185-C0F5-47B3-9DA5-A740B8678005}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Wtest_Birds_01" ID="{D71A2591-9A69-41F2-B5B9-054E95A998E9}" ShortID="414663331">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{426BF6EB-78DC-4930-8CDF-4FA11AF0E562}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Child Channel Router Audio Bus" ID="{25FA4D88-F8AF-4B7E-BCAA-127121660E61}" WorkUnitID="{063A9662-5507-4CE2-89D0-DF453CB6AEEA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="BIRDS_AnimalSeagull TE01_20_2" ID="{20F2D4EA-9A97-4D0C-BCF1-BB814DCA1B8E}">
+							<Language>SFX</Language>
+							<AudioFile>BIRDS_AnimalSeagull TE01_20_2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="611825303"/>
+							</MediaIDList>
+						</AudioFileSource>
+						<AudioFileSource Name="BIRDS_AnimalSeagull TE01_20_2_MONO" ID="{E973AB36-7D74-4ABF-AF31-68F07EDF329B}">
+							<Language>SFX</Language>
+							<AudioFile>BIRDS_AnimalSeagull TE01_20_2_MONO.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="375029077"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Metadata">
+							<Reference>
+								<Custom>
+									<Metadata Name="Channel Router Settings (Custom)" ID="{10C1307C-E168-43AA-8638-6D62B391FF0F}" ShortID="403609088" PluginName="Channel Router Settings" CompanyID="0" PluginID="903" PluginType="9">
+										<PropertyList>
+											<Property Name="Channel" Type="Uint32" Value="2"/>
+										</PropertyList>
+									</Metadata>
+								</Custom>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="BIRDS_AnimalSeagull TE01_20_2_MONO" ID="{E973AB36-7D74-4ABF-AF31-68F07EDF329B}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>
