@@ -10,11 +10,21 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{B6CBD692-12EC-CDBA-0932-48F63C40C91F}",
+    "Hash": "{A6F96E34-0E01-953A-32C1-8923DD672EE1}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
+     "Custom": [
+      {
+       "Id": "1019581913",
+       "Name": "AK Channel Router (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Channel Router Audio Bus\\[Effect Slot [0]: (AK Channel Router)]\\AK Channel Router (Custom)",
+       "GUID": "{75C87971-B398-49F6-8D8A-2843082C7D9B}",
+       "LibName": "Wwise Channel Router",
+       "LibId": "12517379"
+      }
+     ],
      "AudioDevices": [
       {
        "Id": "2317455096",
@@ -23,6 +33,14 @@
        "GUID": "{D6331E37-DBDA-4365-8A13-148345F6BEB5}",
        "LibName": "No Output",
        "LibId": "11862023"
+      },
+      {
+       "Id": "2712377323",
+       "Name": "ASIO_Output",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\ASIO_Output",
+       "GUID": "{FD7F6F21-5374-43BF-989B-279D66919979}",
+       "LibName": "ASIO Output",
+       "LibId": "11010055"
       },
       {
        "Id": "3859886410",
@@ -36,14 +54,102 @@
     },
     "Busses": [
      {
+      "Id": "1563169099",
+      "Name": "Child Channel Router Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Channel Router Audio Bus\\Child Channel Router Audio Bus",
+      "GUID": "{25FA4D88-F8AF-4B7E-BCAA-127121660E61}"
+     },
+     {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     },
+     {
+      "Id": "3896217141",
+      "Name": "Channel Router Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Channel Router Audio Bus",
+      "GUID": "{98E2167D-9F63-4907-B038-60AFC4F8D4C1}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1019581913"
+        }
+       ]
+      }
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1861219552",
+      "Name": "GP_AudioChannel",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\GP_AudioChannel",
+      "GUID": "{5B3C69EE-C501-42B9-9140-7802AF75E34D}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "3649410021",
+      "Name": "SG_AudioChannel",
+      "ObjectPath": "\\Switches\\Default Work Unit\\SG_AudioChannel",
+      "GUID": "{DADBAD6A-CD87-499D-88DC-B08BBA51BCD9}",
+      "GameParameterRef": {
+       "Id": "1861219552"
+      },
+      "Switches": [
+       {
+        "Id": "3491524145",
+        "Name": "SW_AudioChannel_01",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SG_AudioChannel\\SW_AudioChannel_01",
+        "GUID": "{B71FA500-E44A-4ED8-857A-9209F3DE2869}"
+       },
+       {
+        "Id": "3491524146",
+        "Name": "SW_AudioChannel_02",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SG_AudioChannel\\SW_AudioChannel_02",
+        "GUID": "{0AE9985B-168A-4936-B493-2246FC9F4D91}"
+       },
+       {
+        "Id": "3491524147",
+        "Name": "SW_AudioChannel_03",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SG_AudioChannel\\SW_AudioChannel_03",
+        "GUID": "{66FE8366-55E9-4ADA-82F8-2720B740FD04}"
+       },
+       {
+        "Id": "3491524148",
+        "Name": "SW_AudioChannel_04",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SG_AudioChannel\\SW_AudioChannel_04",
+        "GUID": "{5D9806C1-95C1-487E-BC60-5F2F591E691F}"
+       },
+       {
+        "Id": "3491524149",
+        "Name": "SW_AudioChannel_05",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SG_AudioChannel\\SW_AudioChannel_05",
+        "GUID": "{08A399C1-E537-4AAB-951B-00BBB4911935}"
+       },
+       {
+        "Id": "3491524150",
+        "Name": "SW_AudioChannel_06",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SG_AudioChannel\\SW_AudioChannel_06",
+        "GUID": "{D5F60837-2AC6-495B-B95D-8967C9535293}"
+       },
+       {
+        "Id": "3491524151",
+        "Name": "SW_AudioChannel_07",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SG_AudioChannel\\SW_AudioChannel_07",
+        "GUID": "{A6F5CBE1-A84B-497E-BD73-DEC0C133AA5F}"
+       },
+       {
+        "Id": "3491524152",
+        "Name": "SW_AudioChannel_08",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SG_AudioChannel\\SW_AudioChannel_08",
+        "GUID": "{C1B662FC-C58F-464F-88C2-6553A4626C3E}"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{C7F87E19-3323-8A20-9EAE-549DCEAF345B}"
+  "FileHash": "{BD2B1027-B03D-6E32-0ED3-43D3DF7CC011}"
  }
 }

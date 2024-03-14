@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3157003241" Type="User" GUID="{86B7D3F9-6F43-44BF-88E2-8F0383C82174}" Language="SFX" Hash="{78B6BD53-72DA-B9E1-C9C5-487121E0A1F9}">
+			<ObjectPath>\SoundBanks\Test Tones\Test</ObjectPath>
+			<ShortName>Test</ShortName>
+			<Path>Test.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="65955923" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_440Hz_SFX_Ch_04\Tone Generator" GUID="{A294742E-4067-4A7C-A01C-8DB491A36139}" LibName="Wwise Tone Generator" LibId="6684674"/>
+					<Plugin Id="340309885" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_660Hz_SFX_Ch_06\Tone Generator" GUID="{6A81D88A-E22B-43C5-9A88-F9575A1CA1B3}" LibName="Wwise Tone Generator" LibId="6684674"/>
+					<Plugin Id="448864458" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_550Hz_SFX_Ch_05\Tone Generator" GUID="{0FA28343-0EA6-412E-B260-FED5117913A0}" LibName="Wwise Tone Generator" LibId="6684674"/>
+					<Plugin Id="583199144" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_1100Hz_SFX_Ch_08\Tone Generator" GUID="{AC9B2CF0-6C93-433B-80DB-75BB9C4290E1}" LibName="Wwise Tone Generator" LibId="6684674"/>
+					<Plugin Id="679493497" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_330Hz_SFX_Ch_03\Tone Generator" GUID="{0118456B-2D71-4B28-A9D6-AFB5B5A20278}" LibName="Wwise Tone Generator" LibId="6684674"/>
+					<Plugin Id="784506826" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_110Hz_SFX_Ch_01\Tone Generator" GUID="{8C9EB9EC-9BF4-4DB5-A174-ABDD663B7F58}" LibName="Wwise Tone Generator" LibId="6684674"/>
+					<Plugin Id="966258840" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_220Hz_SFX_Ch_02\Tone Generator" GUID="{5B703414-7F3E-453C-B2DC-52F69FDABA06}" LibName="Wwise Tone Generator" LibId="6684674"/>
+					<Plugin Id="994921790" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_880Hz_SFX_Ch_07\Tone Generator" GUID="{6092E8FC-9E6F-446C-AFE2-641698A39E04}" LibName="Wwise Tone Generator" LibId="6684674"/>
+				</Custom>
+				<ShareSets>
+					<Plugin Id="744502176" Name="Channel_Router_Settings_Ch_07" ObjectPath="\Metadata\Default Work Unit\Channel_Router_Settings_Ch_07" GUID="{9226C553-1B3C-4215-9B34-C02452791A5C}" LibName="Channel Router Settings" LibId="59179017"/>
+					<Plugin Id="744502177" Name="Channel_Router_Settings_Ch_06" ObjectPath="\Metadata\Default Work Unit\Channel_Router_Settings_Ch_06" GUID="{69694A33-B334-4E23-8C60-754BFAC7591C}" LibName="Channel Router Settings" LibId="59179017"/>
+					<Plugin Id="744502178" Name="Channel_Router_Settings_Ch_05" ObjectPath="\Metadata\Default Work Unit\Channel_Router_Settings_Ch_05" GUID="{3F0CD41F-085D-4CF0-96F7-F36C4DD7B3AA}" LibName="Channel Router Settings" LibId="59179017"/>
+					<Plugin Id="744502179" Name="Channel_Router_Settings_Ch_04" ObjectPath="\Metadata\Default Work Unit\Channel_Router_Settings_Ch_04" GUID="{D4459A92-ADEB-4A41-8C79-1471C0BA75E9}" LibName="Channel Router Settings" LibId="59179017"/>
+					<Plugin Id="744502180" Name="Channel_Router_Settings_Ch_03" ObjectPath="\Metadata\Default Work Unit\Channel_Router_Settings_Ch_03" GUID="{3B8A7393-EC23-412B-875D-EF6F6457C2B3}" LibName="Channel Router Settings" LibId="59179017"/>
+					<Plugin Id="744502181" Name="Channel_Router_Settings_Ch_02" ObjectPath="\Metadata\Default Work Unit\Channel_Router_Settings_Ch_02" GUID="{82ED94B9-CAA6-438A-81EF-EDF953C28E99}" LibName="Channel Router Settings" LibId="59179017"/>
+					<Plugin Id="744502182" Name="Channel_Router_Settings_Ch_01" ObjectPath="\Metadata\Default Work Unit\Channel_Router_Settings_Ch_01" GUID="{29BC6222-D58E-40B8-A542-01AC5357109E}" LibName="Channel Router Settings" LibId="59179017"/>
+					<Plugin Id="744502191" Name="Channel_Router_Settings_Ch_08" ObjectPath="\Metadata\Default Work Unit\Channel_Router_Settings_Ch_08" GUID="{F2F41F68-1048-46A9-9839-70FC9E80990D}" LibName="Channel Router Settings" LibId="59179017"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="1762796660" Name="Play_Tone_1100Hz_SFX_Ch_08" ObjectPath="\Events\Test Tones\Play_Tone_1100Hz_SFX_Ch_08" GUID="{2ED0503C-C15E-4B75-9B29-AC70CB2BE297}" DurationType="OneShot" DurationMin="10" DurationMax="10">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="583199144"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="1707388607" Name="Play_Tone_110Hz_SFX_Ch_01" ObjectPath="\Events\Test Tones\Play_Tone_110Hz_SFX_Ch_01" GUID="{17D65FE8-B461-41E2-A950-D139E6EA32A8}" DurationType="OneShot" DurationMin="10" DurationMax="10">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="784506826"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="1616158994" Name="Play_Tone_220Hz_SFX_Ch_02" ObjectPath="\Events\Test Tones\Play_Tone_220Hz_SFX_Ch_02" GUID="{DE26DBDC-6D5E-4BEF-9B65-7CB5911F6E53}" DurationType="OneShot" DurationMin="10" DurationMax="10">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="966258840"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="166308145" Name="Play_Tone_330Hz_SFX_Ch_03" ObjectPath="\Events\Test Tones\Play_Tone_330Hz_SFX_Ch_03" GUID="{EEE13D6D-BDBD-4102-A9FB-EA5D435367AB}" DurationType="OneShot" DurationMin="10" DurationMax="10">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="679493497"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="3636957988" Name="Play_Tone_440Hz_SFX_Ch_04" ObjectPath="\Events\Test Tones\Play_Tone_440Hz_SFX_Ch_04" GUID="{1F628C5E-8148-4807-B89F-DE3E0B6F9773}" DurationType="OneShot" DurationMin="10" DurationMax="10">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="65955923"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="967400299" Name="Play_Tone_550Hz_SFX_Ch_05" ObjectPath="\Events\Test Tones\Play_Tone_550Hz_SFX_Ch_05" GUID="{284D1219-2D59-4B82-BE9B-F0A8B27870A0}" DurationType="OneShot" DurationMin="10" DurationMax="10">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="448864458"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="3916284926" Name="Play_Tone_660Hz_SFX_Ch_06" ObjectPath="\Events\Test Tones\Play_Tone_660Hz_SFX_Ch_06" GUID="{3668B856-988C-4800-ABFF-36446C92B377}" DurationType="OneShot" DurationMin="10" DurationMax="10">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="340309885"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="4282552447" Name="Play_Tone_880Hz_SFX_Ch_07" ObjectPath="\Events\Test Tones\Play_Tone_880Hz_SFX_Ch_07" GUID="{E7145265-A5C1-4725-BCAA-D8E4EB62D555}" DurationType="OneShot" DurationMin="10" DurationMax="10">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="994921790"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{532D24CE-985C-CBF0-1EC6-23AD2B5EA80A}</FileHash>
+</SoundBanksInfo>

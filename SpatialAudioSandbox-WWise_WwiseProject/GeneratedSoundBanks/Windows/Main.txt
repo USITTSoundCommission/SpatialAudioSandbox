@@ -7,12 +7,16 @@ Event	ID	Name			Wwise Object Path	Notes
 	2309461497	Wtest_Birds_1			\Default Work Unit\Wtest_Birds_1	
 	4139890923	Wtest_Insects_4			\Default Work Unit\Wtest_Insects_4	
 
+Metadata plug-ins	ID	Name	Type				Notes
+	403609088	Channel Router Settings (Custom)	Channel Router Settings			
+	957500616	Channel Router Settings (Custom)	Channel Router Settings			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	42202842	Wtest_Insects_4	C:\Users\efeag\OneDrive\Desktop\SpatialAudioSandbox-WWise\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\INSECTS_CITY-NIGHT_6EXT8-10622 (1)_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Insects_4		23158880
-	93938369	Wtest_Rain_5	C:\Users\efeag\OneDrive\Desktop\SpatialAudioSandbox-WWise\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\RAIN_SPECIFIC_AMB_INT_Rain_Down_Gutter_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Rain_5		64713416
-	107465972	Wtest_Fountain_3	C:\Users\efeag\OneDrive\Desktop\SpatialAudioSandbox-WWise\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\FOUNTAIN_SI-DIGI-X-1_4_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Fountain_3		7855776
-	119272923	Wtest_Thunder_6	C:\Users\efeag\OneDrive\Desktop\SpatialAudioSandbox-WWise\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\THUNDER_Thunder THR01_05_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Thunder_6		7882848
-	362099386	Wtest_Truck_2	C:\Users\efeag\OneDrive\Desktop\SpatialAudioSandbox-WWise\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\CITY_SPECIFIC_AMBUrbn_Sanitation Truck Idling Slamming Dumpsters On City Service Road_James Mello_MyHmCS_United States_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Truck_2		47616096
-	560494665	Wtest_Children_7	C:\Users\efeag\OneDrive\Desktop\SpatialAudioSandbox-WWise\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\WALLA_CHILDREN_FranceChildren WSS04_04_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Children_7		34639968
-	611825303	Wtest_Birds_1	C:\Users\efeag\OneDrive\Desktop\SpatialAudioSandbox-WWise\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\BIRDS_AnimalSeagull TE01_20_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Birds_1		1128544
+	37111965	Wtest_Insects_4	C:\dev\git\USITTSoundCommission\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\INSECTS_CITY-NIGHT_6EXT8-10622 (1)_MONO_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Insects_4		11579488
+	71831613	Wtest_Fountain_3	C:\dev\git\USITTSoundCommission\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\FOUNTAIN_SI-DIGI-X-1_4_1_MONO_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Fountain_3		3927936
+	375029077	Wtest_Birds_1	C:\dev\git\USITTSoundCommission\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\BIRDS_AnimalSeagull TE01_20_2_MONO_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Birds_1		564320
+	560494665	Wtest_Children_7	C:\dev\git\USITTSoundCommission\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\WALLA_CHILDREN_FranceChildren WSS04_04_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Children_7		34639968
+	616567313	Wtest_Thunder_6	C:\dev\git\USITTSoundCommission\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\THUNDER_Thunder THR01_05_MONO_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Thunder_6		3941472
+	1054646150	Wtest_Rain_5	C:\dev\git\USITTSoundCommission\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\RAIN_SPECIFIC_AMB_INT_Rain_Down_Gutter_MONO_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Rain_5		32356756
+	1056186512	Wtest_Truck_2	C:\dev\git\USITTSoundCommission\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\CITY_SPECIFIC_AMBUrbn_Sanitation Truck Idling Slamming Dumpsters On City Service Road_James Mello_MyHmCS_United States_MONO_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Truck_2		23808096
 

@@ -4,6 +4,20 @@
   "BasePlatform": "Windows",
   "PluginLibs": [
    {
+    "LibName": "Wwise Tone Generator",
+    "LibId": "6684674",
+    "Type": "Source",
+    "DLL": "AkToneGen",
+    "StaticLib": "AkToneSource"
+   },
+   {
+    "LibName": "ASIO Output",
+    "LibId": "11010055",
+    "Type": "AudioDevice",
+    "DLL": "ASIO",
+    "StaticLib": "ASIOSourceSink"
+   },
+   {
     "LibName": "System",
     "LibId": "11403271",
     "Type": "AudioDevice"
@@ -12,8 +26,22 @@
     "LibName": "No Output",
     "LibId": "11862023",
     "Type": "AudioDevice"
+   },
+   {
+    "LibName": "Wwise Channel Router",
+    "LibId": "12517379",
+    "Type": "Effect",
+    "DLL": "AkChannelRouter",
+    "StaticLib": "AkChannelRouterFX"
+   },
+   {
+    "LibName": "Channel Router Settings",
+    "LibId": "59179017",
+    "Type": "Metadata",
+    "DLL": "AkChannelRouter",
+    "StaticLib": "AkChannelRouterMeta"
    }
   ],
-  "FileHash": "{71F42CD2-2880-BF0B-D154-F41540A353AF}"
+  "FileHash": "{EBC406E8-3350-2F42-DB51-30790A52D6FD}"
  }
 }

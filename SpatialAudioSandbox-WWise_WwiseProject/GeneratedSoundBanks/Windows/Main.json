@@ -10,50 +10,34 @@
     "Type": "User",
     "GUID": "{DE07EF51-D195-4CE4-B130-9A15D6E01AA7}",
     "Language": "SFX",
-    "Hash": "{1B2274A1-19A6-8D16-A50E-6069E0271A28}",
+    "Hash": "{9C0F0FB5-763B-E1CB-CA80-4206B52ABB36}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
      {
-      "Id": "42202842",
+      "Id": "37111965",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "INSECTS_CITY-NIGHT_6EXT8-10622 (1).wav",
-      "CachePath": "SFX/INSECTS_CITY-NIGHT_6EXT8-10622 (1)_818F3B66.wem"
+      "ShortName": "INSECTS_CITY-NIGHT_6EXT8-10622 (1)_MONO.wav",
+      "CachePath": "SFX/INSECTS_CITY-NIGHT_6EXT8-10622 (1)_MONO_818F3B66.wem"
      },
      {
-      "Id": "93938369",
+      "Id": "71831613",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "RAIN_SPECIFIC_AMB_INT_Rain_Down_Gutter.wav",
-      "CachePath": "SFX/RAIN_SPECIFIC_AMB_INT_Rain_Down_Gutter_818F3B66.wem"
+      "ShortName": "FOUNTAIN_SI-DIGI-X-1_4_1_MONO.wav",
+      "CachePath": "SFX/FOUNTAIN_SI-DIGI-X-1_4_1_MONO_818F3B66.wem"
      },
      {
-      "Id": "107465972",
+      "Id": "375029077",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "FOUNTAIN_SI-DIGI-X-1_4_1.wav",
-      "CachePath": "SFX/FOUNTAIN_SI-DIGI-X-1_4_1_818F3B66.wem"
-     },
-     {
-      "Id": "119272923",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "THUNDER_Thunder THR01_05.wav",
-      "CachePath": "SFX/THUNDER_Thunder THR01_05_818F3B66.wem"
-     },
-     {
-      "Id": "362099386",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "CITY_SPECIFIC_AMBUrbn_Sanitation Truck Idling Slamming Dumpsters On City Service Road_James Mello_MyHmCS_United States.wav",
-      "CachePath": "SFX/CITY_SPECIFIC_AMBUrbn_Sanitation Truck Idling Slamming Dumpsters On City Service Road_James Mello_MyHmCS_United States_818F3B66.wem"
+      "ShortName": "BIRDS_AnimalSeagull TE01_20_2_MONO.wav",
+      "CachePath": "SFX/BIRDS_AnimalSeagull TE01_20_2_MONO_818F3B66.wem"
      },
      {
       "Id": "560494665",
@@ -64,14 +48,50 @@
       "CachePath": "SFX/WALLA_CHILDREN_FranceChildren WSS04_04_818F3B66.wem"
      },
      {
-      "Id": "611825303",
+      "Id": "616567313",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "BIRDS_AnimalSeagull TE01_20_2.wav",
-      "CachePath": "SFX/BIRDS_AnimalSeagull TE01_20_2_818F3B66.wem"
+      "ShortName": "THUNDER_Thunder THR01_05_MONO.wav",
+      "CachePath": "SFX/THUNDER_Thunder THR01_05_MONO_818F3B66.wem"
+     },
+     {
+      "Id": "1054646150",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "RAIN_SPECIFIC_AMB_INT_Rain_Down_Gutter_MONO.wav",
+      "CachePath": "SFX/RAIN_SPECIFIC_AMB_INT_Rain_Down_Gutter_MONO_818F3B66.wem"
+     },
+     {
+      "Id": "1056186512",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CITY_SPECIFIC_AMBUrbn_Sanitation Truck Idling Slamming Dumpsters On City Service Road_James Mello_MyHmCS_United States_MONO.wav",
+      "CachePath": "SFX/CITY_SPECIFIC_AMBUrbn_Sanitation Truck Idling Slamming Dumpsters On City Service Road_James Mello_MyHmCS_United States_MONO_818F3B66.wem"
      }
     ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "403609088",
+       "Name": "Channel Router Settings (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Wtest_Birds_01\\Channel Router Settings (Custom)",
+       "GUID": "{10C1307C-E168-43AA-8638-6D62B391FF0F}",
+       "LibName": "Channel Router Settings",
+       "LibId": "59179017"
+      },
+      {
+       "Id": "957500616",
+       "Name": "Channel Router Settings (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Wtest_Birds_1\\Channel Router Settings (Custom)",
+       "GUID": "{5CD56ECC-BF59-401D-9FCA-6AA5432BA7A6}",
+       "LibName": "Channel Router Settings",
+       "LibId": "59179017"
+      }
+     ]
+    },
     "Events": [
      {
       "Id": "2309461497",
@@ -83,7 +103,7 @@
       "DurationMax": "5.877333",
       "MediaRefs": [
        {
-        "Id": "611825303"
+        "Id": "375029077"
        }
       ]
      },
@@ -111,7 +131,7 @@
       "DurationMax": "44.533333",
       "MediaRefs": [
        {
-        "Id": "107465972"
+        "Id": "71831613"
        }
       ]
      },
@@ -125,7 +145,7 @@
       "DurationMax": "120.61867",
       "MediaRefs": [
        {
-        "Id": "42202842"
+        "Id": "37111965"
        }
       ]
      },
@@ -139,7 +159,7 @@
       "DurationMax": "337.04855",
       "MediaRefs": [
        {
-        "Id": "93938369"
+        "Id": "1054646150"
        }
       ]
      },
@@ -153,7 +173,7 @@
       "DurationMax": "41.056",
       "MediaRefs": [
        {
-        "Id": "119272923"
+        "Id": "616567313"
        }
       ]
      },
@@ -167,13 +187,13 @@
       "DurationMax": "248",
       "MediaRefs": [
        {
-        "Id": "362099386"
+        "Id": "1056186512"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{CBB000E7-AA6B-0161-5CCE-D79C33727AF5}"
+  "FileHash": "{234DD9D0-BCDC-BB07-EC31-0DD38CF367A3}"
  }
 }

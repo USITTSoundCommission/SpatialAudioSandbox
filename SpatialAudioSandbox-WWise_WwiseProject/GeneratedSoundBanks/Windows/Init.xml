@@ -1,20 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{B6CBD692-12EC-CDBA-0932-48F63C40C91F}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{A6F96E34-0E01-953A-32C1-8923DD672EE1}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<Custom>
+					<Plugin Id="1019581913" Name="AK Channel Router (Custom)" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Channel Router Audio Bus\[Effect Slot [0]: (AK Channel Router)]\AK Channel Router (Custom)" GUID="{75C87971-B398-49F6-8D8A-2843082C7D9B}" LibName="Wwise Channel Router" LibId="12517379"/>
+				</Custom>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{D6331E37-DBDA-4365-8A13-148345F6BEB5}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="2712377323" Name="ASIO_Output" ObjectPath="\Audio Devices\Default Work Unit\ASIO_Output" GUID="{FD7F6F21-5374-43BF-989B-279D66919979}" LibName="ASIO Output" LibId="11010055"/>
 					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{873C58EB-2C9F-48BF-8A8E-ECA302E84F9B}" LibName="System" LibId="11403271"/>
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="1563169099" Name="Child Channel Router Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Channel Router Audio Bus\Child Channel Router Audio Bus" GUID="{25FA4D88-F8AF-4B7E-BCAA-127121660E61}"/>
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Bus Id="3896217141" Name="Channel Router Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Channel Router Audio Bus" GUID="{98E2167D-9F63-4907-B038-60AFC4F8D4C1}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="1019581913"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
 			</Busses>
+			<GameParameters>
+				<GameParameter Id="1861219552" Name="GP_AudioChannel" ObjectPath="\Game Parameters\Default Work Unit\GP_AudioChannel" GUID="{5B3C69EE-C501-42B9-9140-7802AF75E34D}"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="3649410021" Name="SG_AudioChannel" ObjectPath="\Switches\Default Work Unit\SG_AudioChannel" GUID="{DADBAD6A-CD87-499D-88DC-B08BBA51BCD9}">
+					<GameParameterRef Id="1861219552"/>
+					<Switches>
+						<Switch Id="3491524145" Name="SW_AudioChannel_01" ObjectPath="\Switches\Default Work Unit\SG_AudioChannel\SW_AudioChannel_01" GUID="{B71FA500-E44A-4ED8-857A-9209F3DE2869}"/>
+						<Switch Id="3491524146" Name="SW_AudioChannel_02" ObjectPath="\Switches\Default Work Unit\SG_AudioChannel\SW_AudioChannel_02" GUID="{0AE9985B-168A-4936-B493-2246FC9F4D91}"/>
+						<Switch Id="3491524147" Name="SW_AudioChannel_03" ObjectPath="\Switches\Default Work Unit\SG_AudioChannel\SW_AudioChannel_03" GUID="{66FE8366-55E9-4ADA-82F8-2720B740FD04}"/>
+						<Switch Id="3491524148" Name="SW_AudioChannel_04" ObjectPath="\Switches\Default Work Unit\SG_AudioChannel\SW_AudioChannel_04" GUID="{5D9806C1-95C1-487E-BC60-5F2F591E691F}"/>
+						<Switch Id="3491524149" Name="SW_AudioChannel_05" ObjectPath="\Switches\Default Work Unit\SG_AudioChannel\SW_AudioChannel_05" GUID="{08A399C1-E537-4AAB-951B-00BBB4911935}"/>
+						<Switch Id="3491524150" Name="SW_AudioChannel_06" ObjectPath="\Switches\Default Work Unit\SG_AudioChannel\SW_AudioChannel_06" GUID="{D5F60837-2AC6-495B-B95D-8967C9535293}"/>
+						<Switch Id="3491524151" Name="SW_AudioChannel_07" ObjectPath="\Switches\Default Work Unit\SG_AudioChannel\SW_AudioChannel_07" GUID="{A6F5CBE1-A84B-497E-BD73-DEC0C133AA5F}"/>
+						<Switch Id="3491524152" Name="SW_AudioChannel_08" ObjectPath="\Switches\Default Work Unit\SG_AudioChannel\SW_AudioChannel_08" GUID="{C1B662FC-C58F-464F-88C2-6553A4626C3E}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9121D24F-197B-DF90-49BB-980E0B509174}</FileHash>
+	<FileHash>{371364B1-2060-99DF-188B-C5507477A69F}</FileHash>
 </SoundBanksInfo>
