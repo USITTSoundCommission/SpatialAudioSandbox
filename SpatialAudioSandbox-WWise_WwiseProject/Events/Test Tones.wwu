@@ -91,6 +91,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Tone_110Hz_SFX" ID="{94342645-C5EE-4B57-8CA9-52F7DBA170DC}">
+					<ChildrenList>
+						<Action Name="" ID="{063CDA2D-5A64-4E78-98F5-0174C4F5C101}" ShortID="191084241">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tone_110Hz_SFX" ID="{17E687F0-6ED4-4FE9-AC68-E43DAF153849}" WorkUnitID="{1A142F3A-2AF1-43E0-B68C-452219ABC82C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

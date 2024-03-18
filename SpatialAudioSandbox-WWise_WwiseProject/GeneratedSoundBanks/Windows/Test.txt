@@ -4,9 +4,26 @@ Event	ID	Name			Wwise Object Path	Notes
 	1616158994	Play_Tone_220Hz_SFX_Ch_02			\Test Tones\Play_Tone_220Hz_SFX_Ch_02	
 	1707388607	Play_Tone_110Hz_SFX_Ch_01			\Test Tones\Play_Tone_110Hz_SFX_Ch_01	
 	1762796660	Play_Tone_1100Hz_SFX_Ch_08			\Test Tones\Play_Tone_1100Hz_SFX_Ch_08	
+	1967599555	Play_Tone_110Hz_SFX			\Test Tones\Play_Tone_110Hz_SFX	
 	3636957988	Play_Tone_440Hz_SFX_Ch_04			\Test Tones\Play_Tone_440Hz_SFX_Ch_04	
 	3916284926	Play_Tone_660Hz_SFX_Ch_06			\Test Tones\Play_Tone_660Hz_SFX_Ch_06	
 	4282552447	Play_Tone_880Hz_SFX_Ch_07			\Test Tones\Play_Tone_880Hz_SFX_Ch_07	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3649410021	SG_AudioChannel			\Default Work Unit\SG_AudioChannel	
+
+Switch	ID	Name	Switch Group			Notes
+	3491524145	SW_AudioChannel_01	SG_AudioChannel			
+	3491524146	SW_AudioChannel_02	SG_AudioChannel			
+	3491524147	SW_AudioChannel_03	SG_AudioChannel			
+	3491524148	SW_AudioChannel_04	SG_AudioChannel			
+	3491524149	SW_AudioChannel_05	SG_AudioChannel			
+	3491524150	SW_AudioChannel_06	SG_AudioChannel			
+	3491524151	SW_AudioChannel_07	SG_AudioChannel			
+	3491524152	SW_AudioChannel_08	SG_AudioChannel			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1861219552	GP_AudioChannel			\Default Work Unit\GP_AudioChannel	
 
 Metadata plug-ins	ID	Name	Type				Notes
 	744502176	Channel_Router_Settings_Ch_07	Channel Router Settings			
@@ -20,11 +37,19 @@ Metadata plug-ins	ID	Name	Type				Notes
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	65955923	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_440Hz_SFX_Ch_04\Tone Generator	
+	71723931	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_110Hz_SFX\Tone_110Hz_Ch_06\Tone_110Hz_SFX\Tone Generator	
+	152614694	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_110Hz_SFX\Tone_110Hz_Ch_05\Tone_110Hz_SFX\Tone Generator	
 	340309885	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_660Hz_SFX_Ch_06\Tone Generator	
+	367603013	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_110Hz_SFX\Tone_110Hz_Ch_07\Tone_110Hz_SFX\Tone Generator	
 	448864458	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_550Hz_SFX_Ch_05\Tone Generator	
+	544535212	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_110Hz_SFX\Tone_110Hz_Ch_03\Tone_110Hz_SFX\Tone Generator	
 	583199144	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_1100Hz_SFX_Ch_08\Tone Generator	
+	625774716	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_110Hz_SFX\Tone_110Hz_Ch_02\Tone_110Hz_SFX\Tone Generator	
 	679493497	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_330Hz_SFX_Ch_03\Tone Generator	
+	717588896	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_110Hz_SFX\Tone_110Hz_Ch_08\Tone_110Hz_SFX\Tone Generator	
 	784506826	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_110Hz_SFX_Ch_01\Tone Generator	
+	898197232	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_110Hz_SFX\Tone_110Hz_Ch_01\Tone_110Hz_SFX\Tone Generator	
+	918575649	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_110Hz_SFX\Tone_110Hz_Ch_04\Tone_110Hz_SFX\Tone Generator	
 	966258840	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_220Hz_SFX_Ch_02\Tone Generator	
 	994921790	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_880Hz_SFX_Ch_07\Tone Generator	
 

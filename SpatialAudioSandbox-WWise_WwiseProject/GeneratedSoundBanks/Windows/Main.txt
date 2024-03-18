@@ -3,20 +3,62 @@ Event	ID	Name			Wwise Object Path	Notes
 	1005888465	Wtest_Fountain_3			\Default Work Unit\Wtest_Fountain_3	
 	1068832524	Wtest_Children_7			\Default Work Unit\Wtest_Children_7	
 	1329410259	Wtest_Truck_2			\Default Work Unit\Wtest_Truck_2	
+	1488000499	Play_BirdSounds			\Default Work Unit\Play_BirdSounds	
 	1854702693	Wtest_Rain_5			\Default Work Unit\Wtest_Rain_5	
 	2309461497	Wtest_Birds_1			\Default Work Unit\Wtest_Birds_1	
 	4139890923	Wtest_Insects_4			\Default Work Unit\Wtest_Insects_4	
 
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3649410021	SG_AudioChannel			\Default Work Unit\SG_AudioChannel	
+
+Switch	ID	Name	Switch Group			Notes
+	3491524145	SW_AudioChannel_01	SG_AudioChannel			
+	3491524146	SW_AudioChannel_02	SG_AudioChannel			
+	3491524147	SW_AudioChannel_03	SG_AudioChannel			
+	3491524148	SW_AudioChannel_04	SG_AudioChannel			
+	3491524149	SW_AudioChannel_05	SG_AudioChannel			
+	3491524150	SW_AudioChannel_06	SG_AudioChannel			
+	3491524151	SW_AudioChannel_07	SG_AudioChannel			
+	3491524152	SW_AudioChannel_08	SG_AudioChannel			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1861219552	GP_AudioChannel			\Default Work Unit\GP_AudioChannel	
+
 Metadata plug-ins	ID	Name	Type				Notes
-	403609088	Channel Router Settings (Custom)	Channel Router Settings			
+	92639971	Channel_Router_Settings_Ch_06 (Custom)	Channel Router Settings			
+	112767528	Channel_Router_Settings_Ch_04 (Custom)	Channel Router Settings			
+	134249359	Channel_Router_Settings_Ch_01 (Custom)	Channel Router Settings			
+	245549728	Channel_Router_Settings_Ch_07 (Custom)	Channel Router Settings			
+	271847948	Channel_Router_Settings_Ch_02 (Custom)	Channel Router Settings			
+	280072860	Channel_Router_Settings_Ch_03 (Custom)	Channel Router Settings			
+	443627165	Channel_Router_Settings_Ch_05 (Custom)	Channel Router Settings			
+	744502176	Channel_Router_Settings_Ch_07	Channel Router Settings			
+	744502177	Channel_Router_Settings_Ch_06	Channel Router Settings			
+	744502178	Channel_Router_Settings_Ch_05	Channel Router Settings			
+	744502179	Channel_Router_Settings_Ch_04	Channel Router Settings			
+	744502180	Channel_Router_Settings_Ch_03	Channel Router Settings			
+	744502181	Channel_Router_Settings_Ch_02	Channel Router Settings			
+	744502182	Channel_Router_Settings_Ch_01	Channel Router Settings			
+	744502191	Channel_Router_Settings_Ch_08	Channel Router Settings			
+	921932054	Channel_Router_Settings_Ch_08 (Custom)	Channel Router Settings			
 	957500616	Channel Router Settings (Custom)	Channel Router Settings			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	7228793	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Default Work Unit\TEMPLATE Actor-Mixer\TEMPLATE Switch Container\TEMPLATE_Channel_07\Tone_110Hz_SFX_Ch_01\Tone Generator	
+	39987419	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Default Work Unit\TEMPLATE Actor-Mixer\TEMPLATE Switch Container\TEMPLATE_Channel_08\Tone_110Hz_SFX_Ch_01\Tone Generator	
+	101315637	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Default Work Unit\TEMPLATE Actor-Mixer\TEMPLATE Switch Container\TEMPLATE_Channel_04\Tone_110Hz_SFX_Ch_01\Tone Generator	
+	390966201	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Default Work Unit\TEMPLATE Actor-Mixer\TEMPLATE Switch Container\TEMPLATE_Channel_06\Tone_110Hz_SFX_Ch_01\Tone Generator	
+	490399133	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Default Work Unit\TEMPLATE Actor-Mixer\TEMPLATE Switch Container\TEMPLATE_Channel_03\Tone_110Hz_SFX_Ch_01\Tone Generator	
+	548515988	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Default Work Unit\TEMPLATE Actor-Mixer\TEMPLATE Switch Container\TEMPLATE_Channel_01\Tone_110Hz_SFX_Ch_01\Tone Generator	
+	588190397	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Default Work Unit\TEMPLATE Actor-Mixer\TEMPLATE Switch Container\TEMPLATE_Channel_02\Tone_110Hz_SFX_Ch_01\Tone Generator	
+	705115711	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Default Work Unit\TEMPLATE Actor-Mixer\TEMPLATE Switch Container\TEMPLATE_Channel_05\Tone_110Hz_SFX_Ch_01\Tone Generator	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	37111965	Wtest_Insects_4	C:\dev\git\USITTSoundCommission\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\INSECTS_CITY-NIGHT_6EXT8-10622 (1)_MONO_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Insects_4		11579488
 	71831613	Wtest_Fountain_3	C:\dev\git\USITTSoundCommission\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\FOUNTAIN_SI-DIGI-X-1_4_1_MONO_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Fountain_3		3927936
 	375029077	Wtest_Birds_1	C:\dev\git\USITTSoundCommission\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\BIRDS_AnimalSeagull TE01_20_2_MONO_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Birds_1		564320
-	560494665	Wtest_Children_7	C:\dev\git\USITTSoundCommission\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\WALLA_CHILDREN_FranceChildren WSS04_04_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Children_7		34639968
 	616567313	Wtest_Thunder_6	C:\dev\git\USITTSoundCommission\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\THUNDER_Thunder THR01_05_MONO_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Thunder_6		3941472
+	871130063	Wtest_Children_7	C:\dev\git\USITTSoundCommission\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\WALLA_CHILDREN_FranceChildren WSS04_04_MONO_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Children_7		17320032
 	1054646150	Wtest_Rain_5	C:\dev\git\USITTSoundCommission\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\RAIN_SPECIFIC_AMB_INT_Rain_Down_Gutter_MONO_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Rain_5		32356756
 	1056186512	Wtest_Truck_2	C:\dev\git\USITTSoundCommission\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\CITY_SPECIFIC_AMBUrbn_Sanitation Truck Idling Slamming Dumpsters On City Service Road_James Mello_MyHmCS_United States_MONO_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Truck_2		23808096
 

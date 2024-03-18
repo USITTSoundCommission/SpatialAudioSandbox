@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3157003241" Type="User" GUID="{86B7D3F9-6F43-44BF-88E2-8F0383C82174}" Language="SFX" Hash="{78B6BD53-72DA-B9E1-C9C5-487121E0A1F9}">
+		<SoundBank Id="3157003241" Type="User" GUID="{86B7D3F9-6F43-44BF-88E2-8F0383C82174}" Language="SFX" Hash="{CB592490-CD2E-612D-AC8F-705DC58599E9}">
 			<ObjectPath>\SoundBanks\Test Tones\Test</ObjectPath>
 			<ShortName>Test</ShortName>
 			<Path>Test.bnk</Path>
 			<Plugins>
 				<Custom>
 					<Plugin Id="65955923" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_440Hz_SFX_Ch_04\Tone Generator" GUID="{A294742E-4067-4A7C-A01C-8DB491A36139}" LibName="Wwise Tone Generator" LibId="6684674"/>
+					<Plugin Id="71723931" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_110Hz_SFX\Tone_110Hz_Ch_06\Tone_110Hz_SFX\Tone Generator" GUID="{7BE6EF18-75E1-4397-8702-D7629FA29D78}" LibName="Wwise Tone Generator" LibId="6684674"/>
+					<Plugin Id="152614694" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_110Hz_SFX\Tone_110Hz_Ch_05\Tone_110Hz_SFX\Tone Generator" GUID="{3C42F0E0-3385-4FF6-858B-C0E3D41E1A09}" LibName="Wwise Tone Generator" LibId="6684674"/>
 					<Plugin Id="340309885" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_660Hz_SFX_Ch_06\Tone Generator" GUID="{6A81D88A-E22B-43C5-9A88-F9575A1CA1B3}" LibName="Wwise Tone Generator" LibId="6684674"/>
+					<Plugin Id="367603013" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_110Hz_SFX\Tone_110Hz_Ch_07\Tone_110Hz_SFX\Tone Generator" GUID="{AF46C2A4-9D9D-4147-89FB-291E1874CB47}" LibName="Wwise Tone Generator" LibId="6684674"/>
 					<Plugin Id="448864458" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_550Hz_SFX_Ch_05\Tone Generator" GUID="{0FA28343-0EA6-412E-B260-FED5117913A0}" LibName="Wwise Tone Generator" LibId="6684674"/>
+					<Plugin Id="544535212" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_110Hz_SFX\Tone_110Hz_Ch_03\Tone_110Hz_SFX\Tone Generator" GUID="{A4988806-567C-4868-9182-99DBE57CD592}" LibName="Wwise Tone Generator" LibId="6684674"/>
 					<Plugin Id="583199144" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_1100Hz_SFX_Ch_08\Tone Generator" GUID="{AC9B2CF0-6C93-433B-80DB-75BB9C4290E1}" LibName="Wwise Tone Generator" LibId="6684674"/>
+					<Plugin Id="625774716" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_110Hz_SFX\Tone_110Hz_Ch_02\Tone_110Hz_SFX\Tone Generator" GUID="{649E8AEB-3E64-46A5-939D-D967EA189087}" LibName="Wwise Tone Generator" LibId="6684674"/>
 					<Plugin Id="679493497" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_330Hz_SFX_Ch_03\Tone Generator" GUID="{0118456B-2D71-4B28-A9D6-AFB5B5A20278}" LibName="Wwise Tone Generator" LibId="6684674"/>
+					<Plugin Id="717588896" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_110Hz_SFX\Tone_110Hz_Ch_08\Tone_110Hz_SFX\Tone Generator" GUID="{BA6797F3-0D2F-4652-9386-0D923D483B00}" LibName="Wwise Tone Generator" LibId="6684674"/>
 					<Plugin Id="784506826" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_110Hz_SFX_Ch_01\Tone Generator" GUID="{8C9EB9EC-9BF4-4DB5-A174-ABDD663B7F58}" LibName="Wwise Tone Generator" LibId="6684674"/>
+					<Plugin Id="898197232" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_110Hz_SFX\Tone_110Hz_Ch_01\Tone_110Hz_SFX\Tone Generator" GUID="{0C854A56-05C4-4063-BA8E-23906C300436}" LibName="Wwise Tone Generator" LibId="6684674"/>
+					<Plugin Id="918575649" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_110Hz_SFX\Tone_110Hz_Ch_04\Tone_110Hz_SFX\Tone Generator" GUID="{EBACEBDA-CE62-4006-A8DD-370B5978CD9C}" LibName="Wwise Tone Generator" LibId="6684674"/>
 					<Plugin Id="966258840" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_220Hz_SFX_Ch_02\Tone Generator" GUID="{5B703414-7F3E-453C-B2DC-52F69FDABA06}" LibName="Wwise Tone Generator" LibId="6684674"/>
 					<Plugin Id="994921790" Name="Tone Generator" ObjectPath="\Actor-Mixer Hierarchy\Test Tones\Tone Actor-Mixer\Tone_880Hz_SFX_Ch_07\Tone Generator" GUID="{6092E8FC-9E6F-446C-AFE2-641698A39E04}" LibName="Wwise Tone Generator" LibId="6684674"/>
 				</Custom>
@@ -34,6 +42,74 @@
 							<PluginRef Id="583199144"/>
 						</Custom>
 					</PluginRefs>
+				</Event>
+				<Event Id="1967599555" Name="Play_Tone_110Hz_SFX" ObjectPath="\Events\Test Tones\Play_Tone_110Hz_SFX" GUID="{94342645-C5EE-4B57-8CA9-52F7DBA170DC}" DurationType="OneShot" DurationMin="10" DurationMax="10">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3649410021" Id="3491524145" GUID="{B71FA500-E44A-4ED8-857A-9209F3DE2869}" Default="true"/>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="898197232"/>
+								</Custom>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3649410021" Id="3491524150" GUID="{D5F60837-2AC6-495B-B95D-8967C9535293}"/>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="71723931"/>
+								</Custom>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3649410021" Id="3491524146" GUID="{0AE9985B-168A-4936-B493-2246FC9F4D91}"/>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="625774716"/>
+								</Custom>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3649410021" Id="3491524147" GUID="{66FE8366-55E9-4ADA-82F8-2720B740FD04}"/>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="544535212"/>
+								</Custom>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3649410021" Id="3491524148" GUID="{5D9806C1-95C1-487E-BC60-5F2F591E691F}"/>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="918575649"/>
+								</Custom>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3649410021" Id="3491524149" GUID="{08A399C1-E537-4AAB-951B-00BBB4911935}"/>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="152614694"/>
+								</Custom>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3649410021" Id="3491524151" GUID="{A6F5CBE1-A84B-497E-BD73-DEC0C133AA5F}"/>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="367603013"/>
+								</Custom>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3649410021" Id="3491524152" GUID="{C1B662FC-C58F-464F-88C2-6553A4626C3E}"/>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="717588896"/>
+								</Custom>
+							</PluginRefs>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="1707388607" Name="Play_Tone_110Hz_SFX_Ch_01" ObjectPath="\Events\Test Tones\Play_Tone_110Hz_SFX_Ch_01" GUID="{17D65FE8-B461-41E2-A950-D139E6EA32A8}" DurationType="OneShot" DurationMin="10" DurationMax="10">
 					<PluginRefs>
@@ -85,7 +161,25 @@
 					</PluginRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="1861219552" Name="GP_AudioChannel" ObjectPath="\Game Parameters\Default Work Unit\GP_AudioChannel" GUID="{5B3C69EE-C501-42B9-9140-7802AF75E34D}"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="3649410021" Name="SG_AudioChannel" ObjectPath="\Switches\Default Work Unit\SG_AudioChannel" GUID="{DADBAD6A-CD87-499D-88DC-B08BBA51BCD9}">
+					<GameParameterRef Id="1861219552"/>
+					<Switches>
+						<Switch Id="3491524145" Name="SW_AudioChannel_01" ObjectPath="\Switches\Default Work Unit\SG_AudioChannel\SW_AudioChannel_01" GUID="{B71FA500-E44A-4ED8-857A-9209F3DE2869}"/>
+						<Switch Id="3491524146" Name="SW_AudioChannel_02" ObjectPath="\Switches\Default Work Unit\SG_AudioChannel\SW_AudioChannel_02" GUID="{0AE9985B-168A-4936-B493-2246FC9F4D91}"/>
+						<Switch Id="3491524147" Name="SW_AudioChannel_03" ObjectPath="\Switches\Default Work Unit\SG_AudioChannel\SW_AudioChannel_03" GUID="{66FE8366-55E9-4ADA-82F8-2720B740FD04}"/>
+						<Switch Id="3491524148" Name="SW_AudioChannel_04" ObjectPath="\Switches\Default Work Unit\SG_AudioChannel\SW_AudioChannel_04" GUID="{5D9806C1-95C1-487E-BC60-5F2F591E691F}"/>
+						<Switch Id="3491524149" Name="SW_AudioChannel_05" ObjectPath="\Switches\Default Work Unit\SG_AudioChannel\SW_AudioChannel_05" GUID="{08A399C1-E537-4AAB-951B-00BBB4911935}"/>
+						<Switch Id="3491524150" Name="SW_AudioChannel_06" ObjectPath="\Switches\Default Work Unit\SG_AudioChannel\SW_AudioChannel_06" GUID="{D5F60837-2AC6-495B-B95D-8967C9535293}"/>
+						<Switch Id="3491524151" Name="SW_AudioChannel_07" ObjectPath="\Switches\Default Work Unit\SG_AudioChannel\SW_AudioChannel_07" GUID="{A6F5CBE1-A84B-497E-BD73-DEC0C133AA5F}"/>
+						<Switch Id="3491524152" Name="SW_AudioChannel_08" ObjectPath="\Switches\Default Work Unit\SG_AudioChannel\SW_AudioChannel_08" GUID="{C1B662FC-C58F-464F-88C2-6553A4626C3E}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{532D24CE-985C-CBF0-1EC6-23AD2B5EA80A}</FileHash>
+	<FileHash>{5367FB12-FF37-CAB6-BB36-AD63F75E89CA}</FileHash>
 </SoundBanksInfo>

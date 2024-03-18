@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{DE07EF51-D195-4CE4-B130-9A15D6E01AA7}",
     "Language": "SFX",
-    "Hash": "{9C0F0FB5-763B-E1CB-CA80-4206B52ABB36}",
+    "Hash": "{6B0A5AE7-09BC-33F5-1CB6-EB6F611C6858}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -40,20 +40,20 @@
       "CachePath": "SFX/BIRDS_AnimalSeagull TE01_20_2_MONO_818F3B66.wem"
      },
      {
-      "Id": "560494665",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "WALLA_CHILDREN_FranceChildren WSS04_04.wav",
-      "CachePath": "SFX/WALLA_CHILDREN_FranceChildren WSS04_04_818F3B66.wem"
-     },
-     {
       "Id": "616567313",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "THUNDER_Thunder THR01_05_MONO.wav",
       "CachePath": "SFX/THUNDER_Thunder THR01_05_MONO_818F3B66.wem"
+     },
+     {
+      "Id": "871130063",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WALLA_CHILDREN_FranceChildren WSS04_04_MONO.wav",
+      "CachePath": "SFX/WALLA_CHILDREN_FranceChildren WSS04_04_MONO_818F3B66.wem"
      },
      {
       "Id": "1054646150",
@@ -75,10 +75,130 @@
     "Plugins": {
      "Custom": [
       {
-       "Id": "403609088",
-       "Name": "Channel Router Settings (Custom)",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Wtest_Birds_01\\Channel Router Settings (Custom)",
-       "GUID": "{10C1307C-E168-43AA-8638-6D62B391FF0F}",
+       "Id": "7228793",
+       "Name": "Tone Generator",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\TEMPLATE Actor-Mixer\\TEMPLATE Switch Container\\TEMPLATE_Channel_07\\Tone_110Hz_SFX_Ch_01\\Tone Generator",
+       "GUID": "{8A424AD5-0E28-4380-BF0C-46898AAF1166}",
+       "LibName": "Wwise Tone Generator",
+       "LibId": "6684674"
+      },
+      {
+       "Id": "39987419",
+       "Name": "Tone Generator",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\TEMPLATE Actor-Mixer\\TEMPLATE Switch Container\\TEMPLATE_Channel_08\\Tone_110Hz_SFX_Ch_01\\Tone Generator",
+       "GUID": "{5E265ECF-781A-475A-9A88-FE90FC648500}",
+       "LibName": "Wwise Tone Generator",
+       "LibId": "6684674"
+      },
+      {
+       "Id": "92639971",
+       "Name": "Channel_Router_Settings_Ch_06 (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Bird Actor-Mixer\\BirdSounds\\Birds_Channel_06\\Channel_Router_Settings_Ch_06 (Custom)",
+       "GUID": "{C43A2AB1-AF22-4082-878C-B9ABBE0348B2}",
+       "LibName": "Channel Router Settings",
+       "LibId": "59179017"
+      },
+      {
+       "Id": "101315637",
+       "Name": "Tone Generator",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\TEMPLATE Actor-Mixer\\TEMPLATE Switch Container\\TEMPLATE_Channel_04\\Tone_110Hz_SFX_Ch_01\\Tone Generator",
+       "GUID": "{E2368460-AE01-4675-B0FE-616B7010FF45}",
+       "LibName": "Wwise Tone Generator",
+       "LibId": "6684674"
+      },
+      {
+       "Id": "112767528",
+       "Name": "Channel_Router_Settings_Ch_04 (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Bird Actor-Mixer\\BirdSounds\\Birds_Channel_04\\Channel_Router_Settings_Ch_04 (Custom)",
+       "GUID": "{C0B7F257-287C-42DC-B444-4FDD2CD56F66}",
+       "LibName": "Channel Router Settings",
+       "LibId": "59179017"
+      },
+      {
+       "Id": "134249359",
+       "Name": "Channel_Router_Settings_Ch_01 (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Bird Actor-Mixer\\BirdSounds\\Birds_Channel_01\\Channel_Router_Settings_Ch_01 (Custom)",
+       "GUID": "{81011C42-FD81-433F-9191-D11AB3F20D7F}",
+       "LibName": "Channel Router Settings",
+       "LibId": "59179017"
+      },
+      {
+       "Id": "245549728",
+       "Name": "Channel_Router_Settings_Ch_07 (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Bird Actor-Mixer\\BirdSounds\\Birds_Channel_07\\Channel_Router_Settings_Ch_07 (Custom)",
+       "GUID": "{A183BE54-F336-473B-A280-7CE543267681}",
+       "LibName": "Channel Router Settings",
+       "LibId": "59179017"
+      },
+      {
+       "Id": "271847948",
+       "Name": "Channel_Router_Settings_Ch_02 (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Bird Actor-Mixer\\BirdSounds\\Birds_Channel_02\\Channel_Router_Settings_Ch_02 (Custom)",
+       "GUID": "{8F9B086E-2567-4B8A-BFD8-8DCBF5A46CAA}",
+       "LibName": "Channel Router Settings",
+       "LibId": "59179017"
+      },
+      {
+       "Id": "280072860",
+       "Name": "Channel_Router_Settings_Ch_03 (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Bird Actor-Mixer\\BirdSounds\\Birds_Channel_03\\Channel_Router_Settings_Ch_03 (Custom)",
+       "GUID": "{1B52F195-33AE-4915-9F4D-A64F8B56D6D5}",
+       "LibName": "Channel Router Settings",
+       "LibId": "59179017"
+      },
+      {
+       "Id": "390966201",
+       "Name": "Tone Generator",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\TEMPLATE Actor-Mixer\\TEMPLATE Switch Container\\TEMPLATE_Channel_06\\Tone_110Hz_SFX_Ch_01\\Tone Generator",
+       "GUID": "{22B3938F-4E65-475C-9E87-050941A04502}",
+       "LibName": "Wwise Tone Generator",
+       "LibId": "6684674"
+      },
+      {
+       "Id": "443627165",
+       "Name": "Channel_Router_Settings_Ch_05 (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Bird Actor-Mixer\\BirdSounds\\Birds_Channel_05\\Channel_Router_Settings_Ch_05 (Custom)",
+       "GUID": "{03362622-F33A-4A1B-AEC3-B08ADB7605B1}",
+       "LibName": "Channel Router Settings",
+       "LibId": "59179017"
+      },
+      {
+       "Id": "490399133",
+       "Name": "Tone Generator",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\TEMPLATE Actor-Mixer\\TEMPLATE Switch Container\\TEMPLATE_Channel_03\\Tone_110Hz_SFX_Ch_01\\Tone Generator",
+       "GUID": "{FBBBE5EC-5C97-4E0E-ADA2-E25A20A427A8}",
+       "LibName": "Wwise Tone Generator",
+       "LibId": "6684674"
+      },
+      {
+       "Id": "548515988",
+       "Name": "Tone Generator",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\TEMPLATE Actor-Mixer\\TEMPLATE Switch Container\\TEMPLATE_Channel_01\\Tone_110Hz_SFX_Ch_01\\Tone Generator",
+       "GUID": "{FC5093CD-AD7A-4D32-957F-2FC8DF83BE87}",
+       "LibName": "Wwise Tone Generator",
+       "LibId": "6684674"
+      },
+      {
+       "Id": "588190397",
+       "Name": "Tone Generator",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\TEMPLATE Actor-Mixer\\TEMPLATE Switch Container\\TEMPLATE_Channel_02\\Tone_110Hz_SFX_Ch_01\\Tone Generator",
+       "GUID": "{47A0842A-19AD-4C44-AA3E-E127934EBC0B}",
+       "LibName": "Wwise Tone Generator",
+       "LibId": "6684674"
+      },
+      {
+       "Id": "705115711",
+       "Name": "Tone Generator",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\TEMPLATE Actor-Mixer\\TEMPLATE Switch Container\\TEMPLATE_Channel_05\\Tone_110Hz_SFX_Ch_01\\Tone Generator",
+       "GUID": "{6E24C5E0-793A-4066-9E0B-4DC33E46AF4E}",
+       "LibName": "Wwise Tone Generator",
+       "LibId": "6684674"
+      },
+      {
+       "Id": "921932054",
+       "Name": "Channel_Router_Settings_Ch_08 (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Bird Actor-Mixer\\BirdSounds\\Birds_Channel_08\\Channel_Router_Settings_Ch_08 (Custom)",
+       "GUID": "{F4AA9DEA-F58C-4D1C-A2F2-9E3F413E085E}",
        "LibName": "Channel Router Settings",
        "LibId": "59179017"
       },
@@ -90,9 +210,191 @@
        "LibName": "Channel Router Settings",
        "LibId": "59179017"
       }
+     ],
+     "ShareSets": [
+      {
+       "Id": "744502176",
+       "Name": "Channel_Router_Settings_Ch_07",
+       "ObjectPath": "\\Metadata\\Default Work Unit\\Channel_Router_Settings_Ch_07",
+       "GUID": "{9226C553-1B3C-4215-9B34-C02452791A5C}",
+       "LibName": "Channel Router Settings",
+       "LibId": "59179017"
+      },
+      {
+       "Id": "744502177",
+       "Name": "Channel_Router_Settings_Ch_06",
+       "ObjectPath": "\\Metadata\\Default Work Unit\\Channel_Router_Settings_Ch_06",
+       "GUID": "{69694A33-B334-4E23-8C60-754BFAC7591C}",
+       "LibName": "Channel Router Settings",
+       "LibId": "59179017"
+      },
+      {
+       "Id": "744502178",
+       "Name": "Channel_Router_Settings_Ch_05",
+       "ObjectPath": "\\Metadata\\Default Work Unit\\Channel_Router_Settings_Ch_05",
+       "GUID": "{3F0CD41F-085D-4CF0-96F7-F36C4DD7B3AA}",
+       "LibName": "Channel Router Settings",
+       "LibId": "59179017"
+      },
+      {
+       "Id": "744502179",
+       "Name": "Channel_Router_Settings_Ch_04",
+       "ObjectPath": "\\Metadata\\Default Work Unit\\Channel_Router_Settings_Ch_04",
+       "GUID": "{D4459A92-ADEB-4A41-8C79-1471C0BA75E9}",
+       "LibName": "Channel Router Settings",
+       "LibId": "59179017"
+      },
+      {
+       "Id": "744502180",
+       "Name": "Channel_Router_Settings_Ch_03",
+       "ObjectPath": "\\Metadata\\Default Work Unit\\Channel_Router_Settings_Ch_03",
+       "GUID": "{3B8A7393-EC23-412B-875D-EF6F6457C2B3}",
+       "LibName": "Channel Router Settings",
+       "LibId": "59179017"
+      },
+      {
+       "Id": "744502181",
+       "Name": "Channel_Router_Settings_Ch_02",
+       "ObjectPath": "\\Metadata\\Default Work Unit\\Channel_Router_Settings_Ch_02",
+       "GUID": "{82ED94B9-CAA6-438A-81EF-EDF953C28E99}",
+       "LibName": "Channel Router Settings",
+       "LibId": "59179017"
+      },
+      {
+       "Id": "744502182",
+       "Name": "Channel_Router_Settings_Ch_01",
+       "ObjectPath": "\\Metadata\\Default Work Unit\\Channel_Router_Settings_Ch_01",
+       "GUID": "{29BC6222-D58E-40B8-A542-01AC5357109E}",
+       "LibName": "Channel Router Settings",
+       "LibId": "59179017"
+      },
+      {
+       "Id": "744502191",
+       "Name": "Channel_Router_Settings_Ch_08",
+       "ObjectPath": "\\Metadata\\Default Work Unit\\Channel_Router_Settings_Ch_08",
+       "GUID": "{F2F41F68-1048-46A9-9839-70FC9E80990D}",
+       "LibName": "Channel Router Settings",
+       "LibId": "59179017"
+      }
      ]
     },
     "Events": [
+     {
+      "Id": "1488000499",
+      "Name": "Play_BirdSounds",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_BirdSounds",
+      "GUID": "{3BE4E369-D453-40BF-BB5F-67FA90197148}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.877333",
+      "DurationMax": "5.877333",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524145",
+         "GUID": "{B71FA500-E44A-4ED8-857A-9209F3DE2869}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "375029077"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524150",
+         "GUID": "{D5F60837-2AC6-495B-B95D-8967C9535293}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "375029077"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524146",
+         "GUID": "{0AE9985B-168A-4936-B493-2246FC9F4D91}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "375029077"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524147",
+         "GUID": "{66FE8366-55E9-4ADA-82F8-2720B740FD04}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "375029077"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524148",
+         "GUID": "{5D9806C1-95C1-487E-BC60-5F2F591E691F}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "375029077"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524149",
+         "GUID": "{08A399C1-E537-4AAB-951B-00BBB4911935}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "375029077"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524151",
+         "GUID": "{A6F5CBE1-A84B-497E-BD73-DEC0C133AA5F}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "375029077"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524152",
+         "GUID": "{C1B662FC-C58F-464F-88C2-6553A4626C3E}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "375029077"
+         }
+        ]
+       }
+      ]
+     },
      {
       "Id": "2309461497",
       "Name": "Wtest_Birds_1",
@@ -117,7 +419,7 @@
       "DurationMax": "180.416",
       "MediaRefs": [
        {
-        "Id": "560494665"
+        "Id": "871130063"
        }
       ]
      },
@@ -191,9 +493,78 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1861219552",
+      "Name": "GP_AudioChannel",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\GP_AudioChannel",
+      "GUID": "{5B3C69EE-C501-42B9-9140-7802AF75E34D}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "3649410021",
+      "Name": "SG_AudioChannel",
+      "ObjectPath": "\\Switches\\Default Work Unit\\SG_AudioChannel",
+      "GUID": "{DADBAD6A-CD87-499D-88DC-B08BBA51BCD9}",
+      "GameParameterRef": {
+       "Id": "1861219552"
+      },
+      "Switches": [
+       {
+        "Id": "3491524145",
+        "Name": "SW_AudioChannel_01",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SG_AudioChannel\\SW_AudioChannel_01",
+        "GUID": "{B71FA500-E44A-4ED8-857A-9209F3DE2869}"
+       },
+       {
+        "Id": "3491524146",
+        "Name": "SW_AudioChannel_02",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SG_AudioChannel\\SW_AudioChannel_02",
+        "GUID": "{0AE9985B-168A-4936-B493-2246FC9F4D91}"
+       },
+       {
+        "Id": "3491524147",
+        "Name": "SW_AudioChannel_03",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SG_AudioChannel\\SW_AudioChannel_03",
+        "GUID": "{66FE8366-55E9-4ADA-82F8-2720B740FD04}"
+       },
+       {
+        "Id": "3491524148",
+        "Name": "SW_AudioChannel_04",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SG_AudioChannel\\SW_AudioChannel_04",
+        "GUID": "{5D9806C1-95C1-487E-BC60-5F2F591E691F}"
+       },
+       {
+        "Id": "3491524149",
+        "Name": "SW_AudioChannel_05",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SG_AudioChannel\\SW_AudioChannel_05",
+        "GUID": "{08A399C1-E537-4AAB-951B-00BBB4911935}"
+       },
+       {
+        "Id": "3491524150",
+        "Name": "SW_AudioChannel_06",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SG_AudioChannel\\SW_AudioChannel_06",
+        "GUID": "{D5F60837-2AC6-495B-B95D-8967C9535293}"
+       },
+       {
+        "Id": "3491524151",
+        "Name": "SW_AudioChannel_07",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SG_AudioChannel\\SW_AudioChannel_07",
+        "GUID": "{A6F5CBE1-A84B-497E-BD73-DEC0C133AA5F}"
+       },
+       {
+        "Id": "3491524152",
+        "Name": "SW_AudioChannel_08",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SG_AudioChannel\\SW_AudioChannel_08",
+        "GUID": "{C1B662FC-C58F-464F-88C2-6553A4626C3E}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{234DD9D0-BCDC-BB07-EC31-0DD38CF367A3}"
+  "FileHash": "{C3E10B75-3DE4-17DC-2AD3-6E09FFDC43D6}"
  }
 }
