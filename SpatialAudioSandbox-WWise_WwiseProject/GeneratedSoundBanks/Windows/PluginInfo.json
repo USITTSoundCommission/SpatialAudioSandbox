@@ -4,11 +4,32 @@
   "BasePlatform": "Windows",
   "PluginLibs": [
    {
+    "LibName": "Wwise Silence",
+    "LibId": "6619138",
+    "Type": "Source",
+    "DLL": "AkSilenceGenerator",
+    "StaticLib": "AkSilenceSource"
+   },
+   {
     "LibName": "Wwise Tone Generator",
     "LibId": "6684674",
     "Type": "Source",
     "DLL": "AkToneGen",
     "StaticLib": "AkToneSource"
+   },
+   {
+    "LibName": "Wwise Delay",
+    "LibId": "6946819",
+    "Type": "Effect",
+    "DLL": "AkDelay",
+    "StaticLib": "AkDelayFX"
+   },
+   {
+    "LibName": "Wwise Guitar Distortion",
+    "LibId": "8257539",
+    "Type": "Effect",
+    "DLL": "AkGuitarDistortion",
+    "StaticLib": "AkGuitarDistortionFX"
    },
    {
     "LibName": "ASIO Output",
@@ -42,6 +63,6 @@
     "StaticLib": "AkChannelRouterMeta"
    }
   ],
-  "FileHash": "{EBC406E8-3350-2F42-DB51-30790A52D6FD}"
+  "FileHash": "{3FE92EAD-B067-5D95-1344-8AB75F002BDF}"
  }
 }

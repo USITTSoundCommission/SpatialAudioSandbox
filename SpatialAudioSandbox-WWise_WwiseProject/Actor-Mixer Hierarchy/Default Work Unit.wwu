@@ -13,13 +13,6 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="THUNDER_Thunder THR01_05" ID="{CA64AE4A-59EA-4716-BD97-09FBE47A0FBD}">
-							<Language>SFX</Language>
-							<AudioFile>THUNDER_Thunder THR01_05.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="119272923"/>
-							</MediaIDList>
-						</AudioFileSource>
 						<AudioFileSource Name="THUNDER_Thunder THR01_05_MONO" ID="{8E980E38-036F-45B4-AF43-184D6116140A}">
 							<Language>SFX</Language>
 							<AudioFile>THUNDER_Thunder THR01_05_MONO.wav</AudioFile>
@@ -42,13 +35,6 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="WALLA_CHILDREN_FranceChildren WSS04_04" ID="{4D9D94EB-5B26-4880-A8C7-3D601E561860}">
-							<Language>SFX</Language>
-							<AudioFile>WALLA_CHILDREN_FranceChildren WSS04_04.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="560494665"/>
-							</MediaIDList>
-						</AudioFileSource>
 						<AudioFileSource Name="WALLA_CHILDREN_FranceChildren WSS04_04_MONO" ID="{27C534CC-D676-41B8-A0BB-8D5DC38711B3}">
 							<Language>SFX</Language>
 							<AudioFile>WALLA_CHILDREN_FranceChildren WSS04_04_MONO.wav</AudioFile>
@@ -71,13 +57,6 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="BIRDS_AnimalSeagull TE01_20_2" ID="{6BC90499-0186-45AD-9D5A-D3C14E7C236C}">
-							<Language>SFX</Language>
-							<AudioFile>BIRDS_AnimalSeagull TE01_20_2.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="611825303"/>
-							</MediaIDList>
-						</AudioFileSource>
 						<AudioFileSource Name="BIRDS_AnimalSeagull TE01_20_2_MONO" ID="{EBB74FE7-636C-4528-B2AD-13E98222AF8D}">
 							<Language>SFX</Language>
 							<AudioFile>BIRDS_AnimalSeagull TE01_20_2_MONO.wav</AudioFile>
@@ -109,13 +88,6 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="CITY_SPECIFIC_AMBUrbn_Sanitation Truck Idling Slamming Dumpsters On City Service Road_James Mello_MyHmCS_United States" ID="{55901C5E-2D9D-469B-A633-3BB6EBEC5C54}">
-							<Language>SFX</Language>
-							<AudioFile>CITY_SPECIFIC_AMBUrbn_Sanitation Truck Idling Slamming Dumpsters On City Service Road_James Mello_MyHmCS_United States.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="362099386"/>
-							</MediaIDList>
-						</AudioFileSource>
 						<AudioFileSource Name="CITY_SPECIFIC_AMBUrbn_Sanitation Truck Idling Slamming Dumpsters On City Service Road_James Mello_MyHmCS_United States_MONO" ID="{5438E727-2B99-4530-B831-1B09D0E8FAA8}">
 							<Language>SFX</Language>
 							<AudioFile>CITY_SPECIFIC_AMBUrbn_Sanitation Truck Idling Slamming Dumpsters On City Service Road_James Mello_MyHmCS_United States_MONO.wav</AudioFile>
@@ -138,14 +110,12 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="FOUNTAIN_SI-DIGI-X-1_4_1" ID="{C4374F78-92AD-4E50-82CC-E571EFDEF32C}">
-							<Language>SFX</Language>
-							<AudioFile>FOUNTAIN_SI-DIGI-X-1_4_1.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="107465972"/>
-							</MediaIDList>
-						</AudioFileSource>
 						<AudioFileSource Name="FOUNTAIN_SI-DIGI-X-1_4_1_MONO" ID="{359DBC24-E36F-4C22-9916-EEEB9D4AE90E}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="4.48472641826116"/>
+								<Property Name="LoopEnd" Type="Real64" Value="33.9488839833211"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>FOUNTAIN_SI-DIGI-X-1_4_1_MONO.wav</AudioFile>
 							<MediaIDList>
@@ -167,13 +137,6 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="RAIN_SPECIFIC_AMB_INT_Rain_Down_Gutter" ID="{815C76CB-EB5A-4FF4-BF03-0DD8C9028971}">
-							<Language>SFX</Language>
-							<AudioFile>RAIN_SPECIFIC_AMB_INT_Rain_Down_Gutter.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="93938369"/>
-							</MediaIDList>
-						</AudioFileSource>
 						<AudioFileSource Name="RAIN_SPECIFIC_AMB_INT_Rain_Down_Gutter_MONO" ID="{58C9BFFE-B67D-4F42-8D0F-3D112E5CEAF4}">
 							<Language>SFX</Language>
 							<AudioFile>RAIN_SPECIFIC_AMB_INT_Rain_Down_Gutter_MONO.wav</AudioFile>
@@ -196,13 +159,6 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="INSECTS_CITY-NIGHT_6EXT8-10622 (1)" ID="{186F314B-A78B-42C6-9EA0-C166DFFC52FD}">
-							<Language>SFX</Language>
-							<AudioFile>INSECTS_CITY-NIGHT_6EXT8-10622 (1).wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="42202842"/>
-							</MediaIDList>
-						</AudioFileSource>
 						<AudioFileSource Name="INSECTS_CITY-NIGHT_6EXT8-10622 (1)_MONO" ID="{DBCFF185-C0F5-47B3-9DA5-A740B8678005}">
 							<Language>SFX</Language>
 							<AudioFile>INSECTS_CITY-NIGHT_6EXT8-10622 (1)_MONO.wav</AudioFile>
@@ -754,13 +710,6 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BIRDS_AnimalSeagull TE01_20_2" ID="{4264225C-D053-4973-AF22-12B106FD96E8}">
-											<Language>SFX</Language>
-											<AudioFile>BIRDS_AnimalSeagull TE01_20_2.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="611825303"/>
-											</MediaIDList>
-										</AudioFileSource>
 										<AudioFileSource Name="BIRDS_AnimalSeagull TE01_20_2_MONO" ID="{14721C32-300A-4103-B173-CBF19C946646}">
 											<Language>SFX</Language>
 											<AudioFile>BIRDS_AnimalSeagull TE01_20_2_MONO.wav</AudioFile>
@@ -795,13 +744,6 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BIRDS_AnimalSeagull TE01_20_2" ID="{556C4647-251F-4380-8E11-840C069FE561}">
-											<Language>SFX</Language>
-											<AudioFile>BIRDS_AnimalSeagull TE01_20_2.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="611825303"/>
-											</MediaIDList>
-										</AudioFileSource>
 										<AudioFileSource Name="BIRDS_AnimalSeagull TE01_20_2_MONO" ID="{96C9B29C-7BDE-462A-A280-81B5B39FABE8}">
 											<Language>SFX</Language>
 											<AudioFile>BIRDS_AnimalSeagull TE01_20_2_MONO.wav</AudioFile>
@@ -840,13 +782,6 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BIRDS_AnimalSeagull TE01_20_2" ID="{B8D7A825-790E-4595-9DEC-F3811D9E5B1A}">
-											<Language>SFX</Language>
-											<AudioFile>BIRDS_AnimalSeagull TE01_20_2.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="611825303"/>
-											</MediaIDList>
-										</AudioFileSource>
 										<AudioFileSource Name="BIRDS_AnimalSeagull TE01_20_2_MONO" ID="{18FF36CF-C249-4D86-B2BB-17415D03502B}">
 											<Language>SFX</Language>
 											<AudioFile>BIRDS_AnimalSeagull TE01_20_2_MONO.wav</AudioFile>
@@ -885,13 +820,6 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BIRDS_AnimalSeagull TE01_20_2" ID="{3079B90C-BE41-4F48-ACCE-E3ECAB3DD830}">
-											<Language>SFX</Language>
-											<AudioFile>BIRDS_AnimalSeagull TE01_20_2.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="611825303"/>
-											</MediaIDList>
-										</AudioFileSource>
 										<AudioFileSource Name="BIRDS_AnimalSeagull TE01_20_2_MONO" ID="{E15504AD-F6D1-4E0D-B778-75C5CDA970EE}">
 											<Language>SFX</Language>
 											<AudioFile>BIRDS_AnimalSeagull TE01_20_2_MONO.wav</AudioFile>
@@ -930,13 +858,6 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BIRDS_AnimalSeagull TE01_20_2" ID="{696799B0-CA00-4EA4-BCD1-040343A86642}">
-											<Language>SFX</Language>
-											<AudioFile>BIRDS_AnimalSeagull TE01_20_2.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="611825303"/>
-											</MediaIDList>
-										</AudioFileSource>
 										<AudioFileSource Name="BIRDS_AnimalSeagull TE01_20_2_MONO" ID="{A1DBEB88-A95B-4370-B5E3-2FD52F2BE835}">
 											<Language>SFX</Language>
 											<AudioFile>BIRDS_AnimalSeagull TE01_20_2_MONO.wav</AudioFile>
@@ -975,13 +896,6 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BIRDS_AnimalSeagull TE01_20_2" ID="{5C9AB6B6-ABE0-4E2A-90D0-E6F7AC13507D}">
-											<Language>SFX</Language>
-											<AudioFile>BIRDS_AnimalSeagull TE01_20_2.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="611825303"/>
-											</MediaIDList>
-										</AudioFileSource>
 										<AudioFileSource Name="BIRDS_AnimalSeagull TE01_20_2_MONO" ID="{F96F0E53-5C3A-4558-ACC1-B87EC35DD9E3}">
 											<Language>SFX</Language>
 											<AudioFile>BIRDS_AnimalSeagull TE01_20_2_MONO.wav</AudioFile>
@@ -1020,13 +934,6 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BIRDS_AnimalSeagull TE01_20_2" ID="{A1DECD0B-8D54-41ED-A974-D4504558ED72}">
-											<Language>SFX</Language>
-											<AudioFile>BIRDS_AnimalSeagull TE01_20_2.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="611825303"/>
-											</MediaIDList>
-										</AudioFileSource>
 										<AudioFileSource Name="BIRDS_AnimalSeagull TE01_20_2_MONO" ID="{0BDB225F-00B4-46E8-824B-39674D366E07}">
 											<Language>SFX</Language>
 											<AudioFile>BIRDS_AnimalSeagull TE01_20_2_MONO.wav</AudioFile>
@@ -1065,13 +972,6 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BIRDS_AnimalSeagull TE01_20_2" ID="{49A69FF3-AB35-4D8C-BD11-0112BDD68B32}">
-											<Language>SFX</Language>
-											<AudioFile>BIRDS_AnimalSeagull TE01_20_2.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="611825303"/>
-											</MediaIDList>
-										</AudioFileSource>
 										<AudioFileSource Name="BIRDS_AnimalSeagull TE01_20_2_MONO" ID="{63FC59C2-39E8-413A-89B7-455F8F3E152E}">
 											<Language>SFX</Language>
 											<AudioFile>BIRDS_AnimalSeagull TE01_20_2_MONO.wav</AudioFile>
@@ -1179,7 +1079,7 @@
 						</SwitchContainer>
 					</ChildrenList>
 				</ActorMixer>
-				<ActorMixer Name="TEMPLATE Actor-Mixer_01" ID="{BEAF468E-BB12-4C52-B395-6ACE7C862707}" ShortID="1023720338">
+				<ActorMixer Name="TEMPLATE Actor-Mixer_01" ID="{ED7CE473-35AF-499E-8480-1E5BCF8B35BC}" ShortID="193718100">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{426BF6EB-78DC-4930-8CDF-4FA11AF0E562}"/>
@@ -1189,7 +1089,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<SwitchContainer Name="TEMPLATE Switch Container" ID="{C6445F37-455F-42BF-ABB2-9AB30CEB1D36}" ShortID="102482362">
+						<SwitchContainer Name="TEMPLATE Switch Container" ID="{4B5B6FC2-5FB3-443E-8215-EFE55DDD7068}" ShortID="112228464">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{426BF6EB-78DC-4930-8CDF-4FA11AF0E562}"/>
@@ -1205,7 +1105,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="TEMPLATE_Channel_01" ID="{04884EDA-D1D1-4167-8AB5-6E1D5D889510}" ShortID="1017010330">
+								<RandomSequenceContainer Name="TEMPLATE_Channel_01" ID="{19EC7FD7-634B-4EDF-A1E1-BDE772B84D97}" ShortID="1023539032">
 									<PropertyList>
 										<Property Name="OverrideMetadata" Type="bool" Value="True"/>
 									</PropertyList>
@@ -1225,7 +1125,7 @@
 										</ObjectList>
 									</ObjectLists>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="TEMPLATE_Channel_02" ID="{DE4BEC53-3FEE-41C3-87AC-D90A1ADE72C1}" ShortID="504975355">
+								<RandomSequenceContainer Name="TEMPLATE_Channel_02" ID="{E5707F80-EF22-45A5-98B8-085EEB53FF3F}" ShortID="569267478">
 									<PropertyList>
 										<Property Name="OverrideMetadata" Type="bool" Value="True"/>
 									</PropertyList>
@@ -1245,7 +1145,7 @@
 										</ObjectList>
 									</ObjectLists>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="TEMPLATE_Channel_03" ID="{29C05F09-43B4-4D05-9C08-AAD0E3693F3C}" ShortID="773140324">
+								<RandomSequenceContainer Name="TEMPLATE_Channel_03" ID="{C34EE291-20FC-4033-AEFE-E968A73332C0}" ShortID="257222153">
 									<PropertyList>
 										<Property Name="OverrideMetadata" Type="bool" Value="True"/>
 									</PropertyList>
@@ -1265,7 +1165,7 @@
 										</ObjectList>
 									</ObjectLists>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="TEMPLATE_Channel_04" ID="{8FFE25E7-F2E2-497A-BD6B-7212EC2CB79C}" ShortID="957557918">
+								<RandomSequenceContainer Name="TEMPLATE_Channel_04" ID="{531571F8-CCA3-4F95-93DC-EACA19F6B50A}" ShortID="99017382">
 									<PropertyList>
 										<Property Name="OverrideMetadata" Type="bool" Value="True"/>
 									</PropertyList>
@@ -1285,7 +1185,7 @@
 										</ObjectList>
 									</ObjectLists>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="TEMPLATE_Channel_05" ID="{A34056BF-E871-4EDE-A6FF-A2F697B4609C}" ShortID="829437948">
+								<RandomSequenceContainer Name="TEMPLATE_Channel_05" ID="{A9B08E33-07F7-4AAE-BE70-6B9F03B1E83E}" ShortID="377601577">
 									<PropertyList>
 										<Property Name="OverrideMetadata" Type="bool" Value="True"/>
 									</PropertyList>
@@ -1305,7 +1205,7 @@
 										</ObjectList>
 									</ObjectLists>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="TEMPLATE_Channel_06" ID="{DA8C9B18-9C6D-422A-A939-CABD78F96486}" ShortID="731932357">
+								<RandomSequenceContainer Name="TEMPLATE_Channel_06" ID="{14D70993-F404-4218-BF48-85529D9FAB65}" ShortID="740002559">
 									<PropertyList>
 										<Property Name="OverrideMetadata" Type="bool" Value="True"/>
 									</PropertyList>
@@ -1325,7 +1225,7 @@
 										</ObjectList>
 									</ObjectLists>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="TEMPLATE_Channel_07" ID="{000962F3-D670-4F4C-B0B1-F13D8187B7EE}" ShortID="270651286">
+								<RandomSequenceContainer Name="TEMPLATE_Channel_07" ID="{D5F847C6-7EF2-4ADF-A91F-7277D435CAF4}" ShortID="700947563">
 									<PropertyList>
 										<Property Name="OverrideMetadata" Type="bool" Value="True"/>
 									</PropertyList>
@@ -1345,7 +1245,7 @@
 										</ObjectList>
 									</ObjectLists>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="TEMPLATE_Channel_08" ID="{F2041B1D-0D1A-486D-AC20-C8839BB75D0D}" ShortID="399628343">
+								<RandomSequenceContainer Name="TEMPLATE_Channel_08" ID="{59CDD429-0056-452C-86FD-E33C9EACF101}" ShortID="955762081">
 									<PropertyList>
 										<Property Name="OverrideMetadata" Type="bool" Value="True"/>
 									</PropertyList>
@@ -1369,77 +1269,77 @@
 							<GroupingInfo>
 								<GroupingBehaviorList>
 									<GroupingBehavior>
-										<ItemRef Name="TEMPLATE_Channel_03" ID="{29C05F09-43B4-4D05-9C08-AAD0E3693F3C}"/>
+										<ItemRef Name="TEMPLATE_Channel_08" ID="{59CDD429-0056-452C-86FD-E33C9EACF101}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="TEMPLATE_Channel_06" ID="{DA8C9B18-9C6D-422A-A939-CABD78F96486}"/>
+										<ItemRef Name="TEMPLATE_Channel_05" ID="{A9B08E33-07F7-4AAE-BE70-6B9F03B1E83E}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="TEMPLATE_Channel_08" ID="{F2041B1D-0D1A-486D-AC20-C8839BB75D0D}"/>
+										<ItemRef Name="TEMPLATE_Channel_02" ID="{E5707F80-EF22-45A5-98B8-085EEB53FF3F}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="TEMPLATE_Channel_02" ID="{DE4BEC53-3FEE-41C3-87AC-D90A1ADE72C1}"/>
+										<ItemRef Name="TEMPLATE_Channel_03" ID="{C34EE291-20FC-4033-AEFE-E968A73332C0}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="TEMPLATE_Channel_05" ID="{A34056BF-E871-4EDE-A6FF-A2F697B4609C}"/>
+										<ItemRef Name="TEMPLATE_Channel_06" ID="{14D70993-F404-4218-BF48-85529D9FAB65}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="TEMPLATE_Channel_01" ID="{04884EDA-D1D1-4167-8AB5-6E1D5D889510}"/>
+										<ItemRef Name="TEMPLATE_Channel_07" ID="{D5F847C6-7EF2-4ADF-A91F-7277D435CAF4}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="TEMPLATE_Channel_04" ID="{8FFE25E7-F2E2-497A-BD6B-7212EC2CB79C}"/>
+										<ItemRef Name="TEMPLATE_Channel_01" ID="{19EC7FD7-634B-4EDF-A1E1-BDE772B84D97}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="TEMPLATE_Channel_07" ID="{000962F3-D670-4F4C-B0B1-F13D8187B7EE}"/>
+										<ItemRef Name="TEMPLATE_Channel_04" ID="{531571F8-CCA3-4F95-93DC-EACA19F6B50A}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
 								<GroupingList>
 									<Grouping>
 										<SwitchRef Name="SW_AudioChannel_01" ID="{B71FA500-E44A-4ED8-857A-9209F3DE2869}"/>
 										<ItemList>
-											<ItemRef Name="TEMPLATE_Channel_01" ID="{04884EDA-D1D1-4167-8AB5-6E1D5D889510}"/>
+											<ItemRef Name="TEMPLATE_Channel_01" ID="{19EC7FD7-634B-4EDF-A1E1-BDE772B84D97}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
 										<SwitchRef Name="SW_AudioChannel_06" ID="{D5F60837-2AC6-495B-B95D-8967C9535293}"/>
 										<ItemList>
-											<ItemRef Name="TEMPLATE_Channel_06" ID="{DA8C9B18-9C6D-422A-A939-CABD78F96486}"/>
+											<ItemRef Name="TEMPLATE_Channel_06" ID="{14D70993-F404-4218-BF48-85529D9FAB65}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
 										<SwitchRef Name="SW_AudioChannel_02" ID="{0AE9985B-168A-4936-B493-2246FC9F4D91}"/>
 										<ItemList>
-											<ItemRef Name="TEMPLATE_Channel_02" ID="{DE4BEC53-3FEE-41C3-87AC-D90A1ADE72C1}"/>
+											<ItemRef Name="TEMPLATE_Channel_02" ID="{E5707F80-EF22-45A5-98B8-085EEB53FF3F}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
 										<SwitchRef Name="SW_AudioChannel_03" ID="{66FE8366-55E9-4ADA-82F8-2720B740FD04}"/>
 										<ItemList>
-											<ItemRef Name="TEMPLATE_Channel_03" ID="{29C05F09-43B4-4D05-9C08-AAD0E3693F3C}"/>
+											<ItemRef Name="TEMPLATE_Channel_03" ID="{C34EE291-20FC-4033-AEFE-E968A73332C0}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
 										<SwitchRef Name="SW_AudioChannel_04" ID="{5D9806C1-95C1-487E-BC60-5F2F591E691F}"/>
 										<ItemList>
-											<ItemRef Name="TEMPLATE_Channel_04" ID="{8FFE25E7-F2E2-497A-BD6B-7212EC2CB79C}"/>
+											<ItemRef Name="TEMPLATE_Channel_04" ID="{531571F8-CCA3-4F95-93DC-EACA19F6B50A}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
 										<SwitchRef Name="SW_AudioChannel_05" ID="{08A399C1-E537-4AAB-951B-00BBB4911935}"/>
 										<ItemList>
-											<ItemRef Name="TEMPLATE_Channel_05" ID="{A34056BF-E871-4EDE-A6FF-A2F697B4609C}"/>
+											<ItemRef Name="TEMPLATE_Channel_05" ID="{A9B08E33-07F7-4AAE-BE70-6B9F03B1E83E}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
 										<SwitchRef Name="SW_AudioChannel_07" ID="{A6F5CBE1-A84B-497E-BD73-DEC0C133AA5F}"/>
 										<ItemList>
-											<ItemRef Name="TEMPLATE_Channel_07" ID="{000962F3-D670-4F4C-B0B1-F13D8187B7EE}"/>
+											<ItemRef Name="TEMPLATE_Channel_07" ID="{D5F847C6-7EF2-4ADF-A91F-7277D435CAF4}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
 										<SwitchRef Name="SW_AudioChannel_08" ID="{C1B662FC-C58F-464F-88C2-6553A4626C3E}"/>
 										<ItemList>
-											<ItemRef Name="TEMPLATE_Channel_08" ID="{F2041B1D-0D1A-486D-AC20-C8839BB75D0D}"/>
+											<ItemRef Name="TEMPLATE_Channel_08" ID="{59CDD429-0056-452C-86FD-E33C9EACF101}"/>
 										</ItemList>
 									</Grouping>
 								</GroupingList>

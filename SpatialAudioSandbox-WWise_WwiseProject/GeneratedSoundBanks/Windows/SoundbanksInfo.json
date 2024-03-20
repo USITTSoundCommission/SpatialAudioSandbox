@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{519CB63C-E50E-A630-56BD-488D9029B5A8}",
+    "Hash": "{597AF9E6-C6E3-8DDD-EAFA-4E80FF871F0C}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -701,7 +701,7 @@
     "Type": "User",
     "GUID": "{DE07EF51-D195-4CE4-B130-9A15D6E01AA7}",
     "Language": "SFX",
-    "Hash": "{6B0A5AE7-09BC-33F5-1CB6-EB6F611C6858}",
+    "Hash": "{480BEFD4-E82C-9849-3637-F35EAC604632}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -723,6 +723,46 @@
       "CachePath": "SFX/FOUNTAIN_SI-DIGI-X-1_4_1_MONO_818F3B66.wem"
      },
      {
+      "Id": "96028614",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "THUNDER_Thunder THR01_05_MONO.wav",
+      "CachePath": "SFX/THUNDER_Thunder THR01_05_MONO_48068220.wem"
+     },
+     {
+      "Id": "110331556",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "THUNDER_Thunder THR01_05_MONO.wav",
+      "CachePath": "SFX/THUNDER_Thunder THR01_05_MONO_89F27756.wem"
+     },
+     {
+      "Id": "251602347",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "RAIN_SPECIFIC_AMB_INT_Rain_Down_Gutter_MONO.wav",
+      "CachePath": "SFX/RAIN_SPECIFIC_AMB_INT_Rain_Down_Gutter_MONO_5CFBC5FE.wem"
+     },
+     {
+      "Id": "355258280",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "THUNDER_Thunder THR01_05_MONO.wav",
+      "CachePath": "SFX/THUNDER_Thunder THR01_05_MONO_27839D6C.wem"
+     },
+     {
+      "Id": "363529818",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "THUNDER_Thunder THR01_05_MONO.wav",
+      "CachePath": "SFX/THUNDER_Thunder THR01_05_MONO_452FC8B8.wem"
+     },
+     {
       "Id": "375029077",
       "Language": "SFX",
       "Streaming": "false",
@@ -739,12 +779,68 @@
       "CachePath": "SFX/THUNDER_Thunder THR01_05_MONO_818F3B66.wem"
      },
      {
+      "Id": "664252086",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "INSECTS_CITY-NIGHT_6EXT8-10622 (1)_MONO.wav",
+      "CachePath": "SFX/INSECTS_CITY-NIGHT_6EXT8-10622 (1)_MONO_A742AFFF.wem"
+     },
+     {
+      "Id": "731156525",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "THUNDER_Thunder THR01_05_MONO.wav",
+      "CachePath": "SFX/THUNDER_Thunder THR01_05_MONO_955B3819.wem"
+     },
+     {
+      "Id": "784644640",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOUNTAIN_SI-DIGI-X-1_4_1_MONO.wav",
+      "CachePath": "SFX/FOUNTAIN_SI-DIGI-X-1_4_1_MONO_A6E68BA8.wem"
+     },
+     {
+      "Id": "808874868",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WALLA_CHILDREN_FranceChildren WSS04_04_MONO.wav",
+      "CachePath": "SFX/WALLA_CHILDREN_FranceChildren WSS04_04_MONO_36510568.wem"
+     },
+     {
       "Id": "871130063",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "WALLA_CHILDREN_FranceChildren WSS04_04_MONO.wav",
       "CachePath": "SFX/WALLA_CHILDREN_FranceChildren WSS04_04_MONO_818F3B66.wem"
+     },
+     {
+      "Id": "916868447",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "THUNDER_Thunder THR01_05_MONO.wav",
+      "CachePath": "SFX/THUNDER_Thunder THR01_05_MONO_9D87C697.wem"
+     },
+     {
+      "Id": "917363238",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "THUNDER_Thunder THR01_05_MONO.wav",
+      "CachePath": "SFX/THUNDER_Thunder THR01_05_MONO_B70FBE76.wem"
+     },
+     {
+      "Id": "968545796",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "THUNDER_Thunder THR01_05_MONO.wav",
+      "CachePath": "SFX/THUNDER_Thunder THR01_05_MONO_30A0F3DB.wem"
      },
      {
       "Id": "1054646150",
@@ -766,20 +862,20 @@
     "Plugins": {
      "Custom": [
       {
-       "Id": "7228793",
-       "Name": "Tone Generator",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\TEMPLATE Actor-Mixer\\TEMPLATE Switch Container\\TEMPLATE_Channel_07\\Tone_110Hz_SFX_Ch_01\\Tone Generator",
-       "GUID": "{8A424AD5-0E28-4380-BF0C-46898AAF1166}",
-       "LibName": "Wwise Tone Generator",
-       "LibId": "6684674"
+       "Id": "24327539",
+       "Name": "Guitar Distortion (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Looping Work Unit\\Thunder Actor-Mixer\\[Effect Slot [1]: (Guitar Distortion)]\\Guitar Distortion (Custom)",
+       "GUID": "{F02DDFBA-0607-40E0-9699-96EF3E447428}",
+       "LibName": "Wwise Guitar Distortion",
+       "LibId": "8257539"
       },
       {
-       "Id": "39987419",
-       "Name": "Tone Generator",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\TEMPLATE Actor-Mixer\\TEMPLATE Switch Container\\TEMPLATE_Channel_08\\Tone_110Hz_SFX_Ch_01\\Tone Generator",
-       "GUID": "{5E265ECF-781A-475A-9A88-FE90FC648500}",
-       "LibName": "Wwise Tone Generator",
-       "LibId": "6684674"
+       "Id": "77004087",
+       "Name": "Silence",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Looping Work Unit\\Thunder Actor-Mixer\\Thunder_Loop\\Thunder_Ch_03\\Silence_02\\Silence",
+       "GUID": "{B4CEB0B8-01A9-4C7E-89E3-AD965ADD7ACB}",
+       "LibName": "Wwise Silence",
+       "LibId": "6619138"
       },
       {
        "Id": "92639971",
@@ -788,14 +884,6 @@
        "GUID": "{C43A2AB1-AF22-4082-878C-B9ABBE0348B2}",
        "LibName": "Channel Router Settings",
        "LibId": "59179017"
-      },
-      {
-       "Id": "101315637",
-       "Name": "Tone Generator",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\TEMPLATE Actor-Mixer\\TEMPLATE Switch Container\\TEMPLATE_Channel_04\\Tone_110Hz_SFX_Ch_01\\Tone Generator",
-       "GUID": "{E2368460-AE01-4675-B0FE-616B7010FF45}",
-       "LibName": "Wwise Tone Generator",
-       "LibId": "6684674"
       },
       {
        "Id": "112767528",
@@ -812,6 +900,22 @@
        "GUID": "{81011C42-FD81-433F-9191-D11AB3F20D7F}",
        "LibName": "Channel Router Settings",
        "LibId": "59179017"
+      },
+      {
+       "Id": "224116748",
+       "Name": "Silence",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Looping Work Unit\\Thunder Actor-Mixer\\Thunder_Loop\\Thunder_Ch_04\\Silence_02\\Silence",
+       "GUID": "{D2B9653D-2443-4B1F-9B3A-0CA4D03D2878}",
+       "LibName": "Wwise Silence",
+       "LibId": "6619138"
+      },
+      {
+       "Id": "242338771",
+       "Name": "Silence",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Looping Work Unit\\Thunder Actor-Mixer\\Thunder_Loop\\Thunder_Ch_01\\Silence_01\\Silence",
+       "GUID": "{E9423FDC-2DF4-4E1D-BBD4-73EC13327D33}",
+       "LibName": "Wwise Silence",
+       "LibId": "6619138"
       },
       {
        "Id": "245549728",
@@ -838,12 +942,20 @@
        "LibId": "59179017"
       },
       {
-       "Id": "390966201",
-       "Name": "Tone Generator",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\TEMPLATE Actor-Mixer\\TEMPLATE Switch Container\\TEMPLATE_Channel_06\\Tone_110Hz_SFX_Ch_01\\Tone Generator",
-       "GUID": "{22B3938F-4E65-475C-9E87-050941A04502}",
-       "LibName": "Wwise Tone Generator",
-       "LibId": "6684674"
+       "Id": "402186172",
+       "Name": "Silence",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Looping Work Unit\\Thunder Actor-Mixer\\Thunder_Loop\\Thunder_Ch_05\\Silence_01\\Silence",
+       "GUID": "{9E5FE77F-51D5-48E0-A928-9A6F9C406B26}",
+       "LibName": "Wwise Silence",
+       "LibId": "6619138"
+      },
+      {
+       "Id": "420227595",
+       "Name": "Silence",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Looping Work Unit\\Thunder Actor-Mixer\\Thunder_Loop\\Thunder_Ch_05\\Silence_02\\Silence",
+       "GUID": "{D6BAC977-CF35-47CD-AABD-DB6E3E28672F}",
+       "LibName": "Wwise Silence",
+       "LibId": "6619138"
       },
       {
        "Id": "443627165",
@@ -854,36 +966,52 @@
        "LibId": "59179017"
       },
       {
-       "Id": "490399133",
-       "Name": "Tone Generator",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\TEMPLATE Actor-Mixer\\TEMPLATE Switch Container\\TEMPLATE_Channel_03\\Tone_110Hz_SFX_Ch_01\\Tone Generator",
-       "GUID": "{FBBBE5EC-5C97-4E0E-ADA2-E25A20A427A8}",
-       "LibName": "Wwise Tone Generator",
-       "LibId": "6684674"
+       "Id": "592592738",
+       "Name": "Silence",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Looping Work Unit\\Thunder Actor-Mixer\\Thunder_Loop\\Thunder_Ch_08\\Silence_01\\Silence",
+       "GUID": "{DA7A86A9-8960-4E63-A61E-5F7C93AACF4E}",
+       "LibName": "Wwise Silence",
+       "LibId": "6619138"
       },
       {
-       "Id": "548515988",
-       "Name": "Tone Generator",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\TEMPLATE Actor-Mixer\\TEMPLATE Switch Container\\TEMPLATE_Channel_01\\Tone_110Hz_SFX_Ch_01\\Tone Generator",
-       "GUID": "{FC5093CD-AD7A-4D32-957F-2FC8DF83BE87}",
-       "LibName": "Wwise Tone Generator",
-       "LibId": "6684674"
+       "Id": "615283573",
+       "Name": "Silence",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Looping Work Unit\\Thunder Actor-Mixer\\Thunder_Loop\\Thunder_Ch_03\\Silence_01\\Silence",
+       "GUID": "{036AC91B-9EC9-4712-BDF1-FBA2667BA2CA}",
+       "LibName": "Wwise Silence",
+       "LibId": "6619138"
       },
       {
-       "Id": "588190397",
-       "Name": "Tone Generator",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\TEMPLATE Actor-Mixer\\TEMPLATE Switch Container\\TEMPLATE_Channel_02\\Tone_110Hz_SFX_Ch_01\\Tone Generator",
-       "GUID": "{47A0842A-19AD-4C44-AA3E-E127934EBC0B}",
-       "LibName": "Wwise Tone Generator",
-       "LibId": "6684674"
+       "Id": "639777641",
+       "Name": "Silence",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Looping Work Unit\\Thunder Actor-Mixer\\Thunder_Loop\\Thunder_Ch_02\\Silence_01\\Silence",
+       "GUID": "{B084AACB-63FB-4E92-9CB9-56D09C5DCDA4}",
+       "LibName": "Wwise Silence",
+       "LibId": "6619138"
       },
       {
-       "Id": "705115711",
-       "Name": "Tone Generator",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\TEMPLATE Actor-Mixer\\TEMPLATE Switch Container\\TEMPLATE_Channel_05\\Tone_110Hz_SFX_Ch_01\\Tone Generator",
-       "GUID": "{6E24C5E0-793A-4066-9E0B-4DC33E46AF4E}",
-       "LibName": "Wwise Tone Generator",
-       "LibId": "6684674"
+       "Id": "702359563",
+       "Name": "Silence",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Looping Work Unit\\Thunder Actor-Mixer\\Thunder_Loop\\Thunder_Ch_04\\Silence_01\\Silence",
+       "GUID": "{CE5F0DE6-30CE-4EC7-8E83-DD48AF4F392D}",
+       "LibName": "Wwise Silence",
+       "LibId": "6619138"
+      },
+      {
+       "Id": "734181708",
+       "Name": "Silence",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Looping Work Unit\\Thunder Actor-Mixer\\Thunder_Loop\\Thunder_Ch_07\\Silence_01\\Silence",
+       "GUID": "{EC47A30B-091B-484E-8B00-6D3E790BD93E}",
+       "LibName": "Wwise Silence",
+       "LibId": "6619138"
+      },
+      {
+       "Id": "866236916",
+       "Name": "Silence",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Looping Work Unit\\Thunder Actor-Mixer\\Thunder_Loop\\Thunder_Ch_01\\Silence_02\\Silence",
+       "GUID": "{BB10FA4B-08EA-4DAD-AC14-D33E53F8AE1C}",
+       "LibName": "Wwise Silence",
+       "LibId": "6619138"
       },
       {
        "Id": "921932054",
@@ -894,12 +1022,52 @@
        "LibId": "59179017"
       },
       {
+       "Id": "927869165",
+       "Name": "Silence",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Looping Work Unit\\Thunder Actor-Mixer\\Thunder_Loop\\Thunder_Ch_06\\Silence_02\\Silence",
+       "GUID": "{8F40CA2D-A06D-4B3F-8698-5E43B55E43B3}",
+       "LibName": "Wwise Silence",
+       "LibId": "6619138"
+      },
+      {
+       "Id": "933930636",
+       "Name": "Silence",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Looping Work Unit\\Thunder Actor-Mixer\\Thunder_Loop\\Thunder_Ch_07\\Silence_02\\Silence",
+       "GUID": "{5D75289E-B291-4313-B096-03CC4C809129}",
+       "LibName": "Wwise Silence",
+       "LibId": "6619138"
+      },
+      {
        "Id": "957500616",
        "Name": "Channel Router Settings (Custom)",
        "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Wtest_Birds_1\\Channel Router Settings (Custom)",
        "GUID": "{5CD56ECC-BF59-401D-9FCA-6AA5432BA7A6}",
        "LibName": "Channel Router Settings",
        "LibId": "59179017"
+      },
+      {
+       "Id": "1014778718",
+       "Name": "Silence",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Looping Work Unit\\Thunder Actor-Mixer\\Thunder_Loop\\Thunder_Ch_02\\Silence_02\\Silence",
+       "GUID": "{2499B9C3-F942-4A15-9F44-C92838910CAE}",
+       "LibName": "Wwise Silence",
+       "LibId": "6619138"
+      },
+      {
+       "Id": "1024437803",
+       "Name": "Silence",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Looping Work Unit\\Thunder Actor-Mixer\\Thunder_Loop\\Thunder_Ch_08\\Silence_02\\Silence",
+       "GUID": "{0348B073-E2B8-4449-A715-66A16E7DC642}",
+       "LibName": "Wwise Silence",
+       "LibId": "6619138"
+      },
+      {
+       "Id": "1067924870",
+       "Name": "Silence",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Looping Work Unit\\Thunder Actor-Mixer\\Thunder_Loop\\Thunder_Ch_06\\Silence_01\\Silence",
+       "GUID": "{6BDA058A-BBB9-4DC5-996A-6A0A078F38E9}",
+       "LibName": "Wwise Silence",
+       "LibId": "6619138"
       }
      ],
      "ShareSets": [
@@ -966,6 +1134,14 @@
        "GUID": "{F2F41F68-1048-46A9-9839-70FC9E80990D}",
        "LibName": "Channel Router Settings",
        "LibId": "59179017"
+      },
+      {
+       "Id": "1590660382",
+       "Name": "Nearly_Forever",
+       "ObjectPath": "\\Effects\\Factory Effects\\Delay\\Nearly_Forever",
+       "GUID": "{38550FDA-9236-4FC5-8AE0-68DB08164B25}",
+       "LibName": "Wwise Delay",
+       "LibId": "6946819"
       }
      ]
     },
@@ -1085,6 +1261,938 @@
         ]
        }
       ]
+     },
+     {
+      "Id": "1456664355",
+      "Name": "Play_ChildrenAtPlay_Loop",
+      "ObjectPath": "\\Events\\Looping Work Unit\\Play_ChildrenAtPlay_Loop",
+      "GUID": "{E98CB132-CD29-4AAC-9A69-F02C4A98C4D3}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524145",
+         "GUID": "{B71FA500-E44A-4ED8-857A-9209F3DE2869}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "808874868"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524150",
+         "GUID": "{D5F60837-2AC6-495B-B95D-8967C9535293}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "808874868"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524146",
+         "GUID": "{0AE9985B-168A-4936-B493-2246FC9F4D91}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "808874868"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524147",
+         "GUID": "{66FE8366-55E9-4ADA-82F8-2720B740FD04}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "808874868"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524148",
+         "GUID": "{5D9806C1-95C1-487E-BC60-5F2F591E691F}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "808874868"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524149",
+         "GUID": "{08A399C1-E537-4AAB-951B-00BBB4911935}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "808874868"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524151",
+         "GUID": "{A6F5CBE1-A84B-497E-BD73-DEC0C133AA5F}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "808874868"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524152",
+         "GUID": "{C1B662FC-C58F-464F-88C2-6553A4626C3E}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "808874868"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "3598094698",
+      "Name": "Play_Insects_Loop",
+      "ObjectPath": "\\Events\\Looping Work Unit\\Play_Insects_Loop",
+      "GUID": "{51AD2417-85B5-458E-A24C-D24F7F60FB88}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524145",
+         "GUID": "{B71FA500-E44A-4ED8-857A-9209F3DE2869}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "664252086"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524150",
+         "GUID": "{D5F60837-2AC6-495B-B95D-8967C9535293}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "664252086"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524146",
+         "GUID": "{0AE9985B-168A-4936-B493-2246FC9F4D91}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "664252086"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524147",
+         "GUID": "{66FE8366-55E9-4ADA-82F8-2720B740FD04}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "664252086"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524148",
+         "GUID": "{5D9806C1-95C1-487E-BC60-5F2F591E691F}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "664252086"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524149",
+         "GUID": "{08A399C1-E537-4AAB-951B-00BBB4911935}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "664252086"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524151",
+         "GUID": "{A6F5CBE1-A84B-497E-BD73-DEC0C133AA5F}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "664252086"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524152",
+         "GUID": "{C1B662FC-C58F-464F-88C2-6553A4626C3E}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "664252086"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "1012011693",
+      "Name": "Play_Rain_Loop",
+      "ObjectPath": "\\Events\\Looping Work Unit\\Play_Rain_Loop",
+      "GUID": "{94E7953C-A4E8-4B7C-B105-5F929EDED160}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524145",
+         "GUID": "{B71FA500-E44A-4ED8-857A-9209F3DE2869}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "251602347"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524150",
+         "GUID": "{D5F60837-2AC6-495B-B95D-8967C9535293}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "251602347"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524146",
+         "GUID": "{0AE9985B-168A-4936-B493-2246FC9F4D91}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "251602347"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524147",
+         "GUID": "{66FE8366-55E9-4ADA-82F8-2720B740FD04}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "251602347"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524148",
+         "GUID": "{5D9806C1-95C1-487E-BC60-5F2F591E691F}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "251602347"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524149",
+         "GUID": "{08A399C1-E537-4AAB-951B-00BBB4911935}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "251602347"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524151",
+         "GUID": "{A6F5CBE1-A84B-497E-BD73-DEC0C133AA5F}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "251602347"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524152",
+         "GUID": "{C1B662FC-C58F-464F-88C2-6553A4626C3E}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "251602347"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "791739789",
+      "Name": "Play_Thunder_Loop",
+      "ObjectPath": "\\Events\\Looping Work Unit\\Play_Thunder_Loop",
+      "GUID": "{204CD200-E57A-4FA7-92E0-2E24E31693C2}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524145",
+         "GUID": "{B71FA500-E44A-4ED8-857A-9209F3DE2869}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "96028614"
+         },
+         {
+          "Id": "110331556"
+         },
+         {
+          "Id": "355258280"
+         },
+         {
+          "Id": "363529818"
+         },
+         {
+          "Id": "731156525"
+         },
+         {
+          "Id": "916868447"
+         },
+         {
+          "Id": "917363238"
+         },
+         {
+          "Id": "968545796"
+         }
+        ],
+        "PluginRefs": {
+         "Custom": [
+          {
+           "Id": "24327539"
+          },
+          {
+           "Id": "242338771"
+          },
+          {
+           "Id": "866236916"
+          }
+         ],
+         "ShareSets": [
+          {
+           "Id": "1590660382"
+          }
+         ]
+        }
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524150",
+         "GUID": "{D5F60837-2AC6-495B-B95D-8967C9535293}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "96028614"
+         },
+         {
+          "Id": "110331556"
+         },
+         {
+          "Id": "355258280"
+         },
+         {
+          "Id": "363529818"
+         },
+         {
+          "Id": "731156525"
+         },
+         {
+          "Id": "916868447"
+         },
+         {
+          "Id": "917363238"
+         },
+         {
+          "Id": "968545796"
+         }
+        ],
+        "PluginRefs": {
+         "Custom": [
+          {
+           "Id": "24327539"
+          },
+          {
+           "Id": "927869165"
+          },
+          {
+           "Id": "1067924870"
+          }
+         ],
+         "ShareSets": [
+          {
+           "Id": "1590660382"
+          }
+         ]
+        }
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524146",
+         "GUID": "{0AE9985B-168A-4936-B493-2246FC9F4D91}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "96028614"
+         },
+         {
+          "Id": "110331556"
+         },
+         {
+          "Id": "355258280"
+         },
+         {
+          "Id": "363529818"
+         },
+         {
+          "Id": "731156525"
+         },
+         {
+          "Id": "916868447"
+         },
+         {
+          "Id": "917363238"
+         },
+         {
+          "Id": "968545796"
+         }
+        ],
+        "PluginRefs": {
+         "Custom": [
+          {
+           "Id": "24327539"
+          },
+          {
+           "Id": "639777641"
+          },
+          {
+           "Id": "1014778718"
+          }
+         ],
+         "ShareSets": [
+          {
+           "Id": "1590660382"
+          }
+         ]
+        }
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524147",
+         "GUID": "{66FE8366-55E9-4ADA-82F8-2720B740FD04}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "96028614"
+         },
+         {
+          "Id": "110331556"
+         },
+         {
+          "Id": "355258280"
+         },
+         {
+          "Id": "363529818"
+         },
+         {
+          "Id": "731156525"
+         },
+         {
+          "Id": "916868447"
+         },
+         {
+          "Id": "917363238"
+         },
+         {
+          "Id": "968545796"
+         }
+        ],
+        "PluginRefs": {
+         "Custom": [
+          {
+           "Id": "24327539"
+          },
+          {
+           "Id": "77004087"
+          },
+          {
+           "Id": "615283573"
+          }
+         ],
+         "ShareSets": [
+          {
+           "Id": "1590660382"
+          }
+         ]
+        }
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524148",
+         "GUID": "{5D9806C1-95C1-487E-BC60-5F2F591E691F}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "96028614"
+         },
+         {
+          "Id": "110331556"
+         },
+         {
+          "Id": "355258280"
+         },
+         {
+          "Id": "363529818"
+         },
+         {
+          "Id": "731156525"
+         },
+         {
+          "Id": "916868447"
+         },
+         {
+          "Id": "917363238"
+         },
+         {
+          "Id": "968545796"
+         }
+        ],
+        "PluginRefs": {
+         "Custom": [
+          {
+           "Id": "24327539"
+          },
+          {
+           "Id": "224116748"
+          },
+          {
+           "Id": "702359563"
+          }
+         ],
+         "ShareSets": [
+          {
+           "Id": "1590660382"
+          }
+         ]
+        }
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524149",
+         "GUID": "{08A399C1-E537-4AAB-951B-00BBB4911935}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "96028614"
+         },
+         {
+          "Id": "110331556"
+         },
+         {
+          "Id": "355258280"
+         },
+         {
+          "Id": "363529818"
+         },
+         {
+          "Id": "731156525"
+         },
+         {
+          "Id": "916868447"
+         },
+         {
+          "Id": "917363238"
+         },
+         {
+          "Id": "968545796"
+         }
+        ],
+        "PluginRefs": {
+         "Custom": [
+          {
+           "Id": "24327539"
+          },
+          {
+           "Id": "402186172"
+          },
+          {
+           "Id": "420227595"
+          }
+         ],
+         "ShareSets": [
+          {
+           "Id": "1590660382"
+          }
+         ]
+        }
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524151",
+         "GUID": "{A6F5CBE1-A84B-497E-BD73-DEC0C133AA5F}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "96028614"
+         },
+         {
+          "Id": "110331556"
+         },
+         {
+          "Id": "355258280"
+         },
+         {
+          "Id": "363529818"
+         },
+         {
+          "Id": "731156525"
+         },
+         {
+          "Id": "916868447"
+         },
+         {
+          "Id": "917363238"
+         },
+         {
+          "Id": "968545796"
+         }
+        ],
+        "PluginRefs": {
+         "Custom": [
+          {
+           "Id": "24327539"
+          },
+          {
+           "Id": "734181708"
+          },
+          {
+           "Id": "933930636"
+          }
+         ],
+         "ShareSets": [
+          {
+           "Id": "1590660382"
+          }
+         ]
+        }
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524152",
+         "GUID": "{C1B662FC-C58F-464F-88C2-6553A4626C3E}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "96028614"
+         },
+         {
+          "Id": "110331556"
+         },
+         {
+          "Id": "355258280"
+         },
+         {
+          "Id": "363529818"
+         },
+         {
+          "Id": "731156525"
+         },
+         {
+          "Id": "916868447"
+         },
+         {
+          "Id": "917363238"
+         },
+         {
+          "Id": "968545796"
+         }
+        ],
+        "PluginRefs": {
+         "Custom": [
+          {
+           "Id": "24327539"
+          },
+          {
+           "Id": "592592738"
+          },
+          {
+           "Id": "1024437803"
+          }
+         ],
+         "ShareSets": [
+          {
+           "Id": "1590660382"
+          }
+         ]
+        }
+       }
+      ]
+     },
+     {
+      "Id": "3124459160",
+      "Name": "Play_WaterFountain_Loop",
+      "ObjectPath": "\\Events\\Looping Work Unit\\Play_WaterFountain_Loop",
+      "GUID": "{B4EB9E04-1B85-4396-9E40-05108AE85A0F}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524145",
+         "GUID": "{B71FA500-E44A-4ED8-857A-9209F3DE2869}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "784644640"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524150",
+         "GUID": "{D5F60837-2AC6-495B-B95D-8967C9535293}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "784644640"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524146",
+         "GUID": "{0AE9985B-168A-4936-B493-2246FC9F4D91}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "784644640"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524147",
+         "GUID": "{66FE8366-55E9-4ADA-82F8-2720B740FD04}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "784644640"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524148",
+         "GUID": "{5D9806C1-95C1-487E-BC60-5F2F591E691F}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "784644640"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524149",
+         "GUID": "{08A399C1-E537-4AAB-951B-00BBB4911935}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "784644640"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524151",
+         "GUID": "{A6F5CBE1-A84B-497E-BD73-DEC0C133AA5F}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "784644640"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3649410021",
+         "Id": "3491524152",
+         "GUID": "{C1B662FC-C58F-464F-88C2-6553A4626C3E}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "784644640"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "482289005",
+      "Name": "Stop_ChildrenAtPlay_Loop",
+      "ObjectPath": "\\Events\\Looping Work Unit\\Stop_ChildrenAtPlay_Loop",
+      "GUID": "{7FCC0940-3C3A-46C5-BD91-4A4CB181768C}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "221360252",
+      "Name": "Stop_Insects_Loop",
+      "ObjectPath": "\\Events\\Looping Work Unit\\Stop_Insects_Loop",
+      "GUID": "{FBA78211-3584-489D-9841-886C87F80808}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3696271347",
+      "Name": "Stop_Rain_Loop",
+      "ObjectPath": "\\Events\\Looping Work Unit\\Stop_Rain_Loop",
+      "GUID": "{1F4B0C13-B3FB-44C8-B591-ECA41EC99FFE}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1766386511",
+      "Name": "Stop_Thunder_Loop",
+      "ObjectPath": "\\Events\\Looping Work Unit\\Stop_Thunder_Loop",
+      "GUID": "{A2052725-8A36-46D3-9277-203737AC8422}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3616410978",
+      "Name": "Stop_WaterFountain_Loop",
+      "ObjectPath": "\\Events\\Looping Work Unit\\Stop_WaterFountain_Loop",
+      "GUID": "{D4DAD48C-41AB-4B49-9F3A-FB203393F64E}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      },
      {
       "Id": "2309461497",
@@ -1256,6 +2364,6 @@
     ]
    }
   ],
-  "FileHash": "{0C840CE8-65DC-FB6D-908B-5E1360EF6137}"
+  "FileHash": "{12687C30-1E75-EB39-A120-727765E18D71}"
  }
 }

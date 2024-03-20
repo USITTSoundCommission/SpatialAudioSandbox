@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PluginInfo Platform="Windows" BasePlatform="Windows">
 	<PluginLibs>
+		<PluginLib LibName="Wwise Silence" LibId="6619138" Type="Source" DLL="AkSilenceGenerator" StaticLib="AkSilenceSource"/>
 		<PluginLib LibName="Wwise Tone Generator" LibId="6684674" Type="Source" DLL="AkToneGen" StaticLib="AkToneSource"/>
+		<PluginLib LibName="Wwise Delay" LibId="6946819" Type="Effect" DLL="AkDelay" StaticLib="AkDelayFX"/>
+		<PluginLib LibName="Wwise Guitar Distortion" LibId="8257539" Type="Effect" DLL="AkGuitarDistortion" StaticLib="AkGuitarDistortionFX"/>
 		<PluginLib LibName="ASIO Output" LibId="11010055" Type="AudioDevice" DLL="ASIO" StaticLib="ASIOSourceSink"/>
 		<PluginLib LibName="System" LibId="11403271" Type="AudioDevice"/>
 		<PluginLib LibName="No Output" LibId="11862023" Type="AudioDevice"/>
 		<PluginLib LibName="Wwise Channel Router" LibId="12517379" Type="Effect" DLL="AkChannelRouter" StaticLib="AkChannelRouterFX"/>
 		<PluginLib LibName="Channel Router Settings" LibId="59179017" Type="Metadata" DLL="AkChannelRouter" StaticLib="AkChannelRouterMeta"/>
 	</PluginLibs>
-	<FileHash>{E5006D85-868E-AB30-946D-54498AF6D36F}</FileHash>
+	<FileHash>{BDFC4C34-EB5B-11E0-A537-20A3DA2A290B}</FileHash>
 </PluginInfo>

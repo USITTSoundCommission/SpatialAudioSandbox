@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3518EB98-DCA3-4EB3-9193-897C6274226D}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Looping Work Unit" ID="{3518EB98-DCA3-4EB3-9193-897C6274226D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_WaterFountain_Loop" ID="{B4EB9E04-1B85-4396-9E40-05108AE85A0F}">
+					<ChildrenList>
+						<Action Name="" ID="{124513E5-734C-4EB8-8B3C-CC80F04E3811}" ShortID="281193497">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WaterFountain_Loop" ID="{2A95F27A-B253-4023-97FC-E98F5704E954}" WorkUnitID="{24B22E49-087A-44A9-8842-2EA13BDFF01E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ChildrenAtPlay_Loop" ID="{E98CB132-CD29-4AAC-9A69-F02C4A98C4D3}">
+					<ChildrenList>
+						<Action Name="" ID="{430D56E8-B9F1-4DFD-9C4D-664A7E467B58}" ShortID="334627184">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ChildrenAtPlay_Loop" ID="{C6445F37-455F-42BF-ABB2-9AB30CEB1D36}" WorkUnitID="{24B22E49-087A-44A9-8842-2EA13BDFF01E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_WaterFountain_Loop" ID="{D4DAD48C-41AB-4B49-9F3A-FB203393F64E}">
+					<ChildrenList>
+						<Action Name="" ID="{AB457798-3A43-4BD5-917B-04BB9666EE96}" ShortID="488829534">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WaterFountain_Loop" ID="{2A95F27A-B253-4023-97FC-E98F5704E954}" WorkUnitID="{24B22E49-087A-44A9-8842-2EA13BDFF01E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_ChildrenAtPlay_Loop" ID="{7FCC0940-3C3A-46C5-BD91-4A4CB181768C}">
+					<ChildrenList>
+						<Action Name="" ID="{713C958B-23E1-43E8-A1CB-EAA351A3D382}" ShortID="681074612">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ChildrenAtPlay_Loop" ID="{C6445F37-455F-42BF-ABB2-9AB30CEB1D36}" WorkUnitID="{24B22E49-087A-44A9-8842-2EA13BDFF01E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Insects_Loop" ID="{FBA78211-3584-489D-9841-886C87F80808}">
+					<ChildrenList>
+						<Action Name="" ID="{C09B2A48-5E20-47FE-B9C3-FA16242C011C}" ShortID="508119689">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Insects_Loop" ID="{5C2B0E59-EC0B-49D9-A44B-8CB5CBD0C45D}" WorkUnitID="{24B22E49-087A-44A9-8842-2EA13BDFF01E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Rain_Loop" ID="{94E7953C-A4E8-4B7C-B105-5F929EDED160}">
+					<ChildrenList>
+						<Action Name="" ID="{844A3260-EF24-4DF6-9497-DE86AD142DE9}" ShortID="86001855">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rain_Loop" ID="{B9EEAABE-C01B-4AA4-94B5-80E7C4197517}" WorkUnitID="{24B22E49-087A-44A9-8842-2EA13BDFF01E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Rain_Loop" ID="{1F4B0C13-B3FB-44C8-B591-ECA41EC99FFE}">
+					<ChildrenList>
+						<Action Name="" ID="{1E730065-7661-4E11-B0EC-E9FA91958879}" ShortID="109768014">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rain_Loop" ID="{B9EEAABE-C01B-4AA4-94B5-80E7C4197517}" WorkUnitID="{24B22E49-087A-44A9-8842-2EA13BDFF01E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Insects_Loop" ID="{51AD2417-85B5-458E-A24C-D24F7F60FB88}">
+					<ChildrenList>
+						<Action Name="" ID="{6A289A70-23A2-4D64-9D6D-CD13660B452B}" ShortID="674842411">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Insects_Loop" ID="{5C2B0E59-EC0B-49D9-A44B-8CB5CBD0C45D}" WorkUnitID="{24B22E49-087A-44A9-8842-2EA13BDFF01E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Thunder_Loop" ID="{A2052725-8A36-46D3-9277-203737AC8422}">
+					<ChildrenList>
+						<Action Name="" ID="{66792D07-7E8A-440C-90E4-3A51E3B43231}" ShortID="394028659">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Thunder_Loop" ID="{DFABD139-6CDB-4665-94E3-B0CB0C5809D9}" WorkUnitID="{24B22E49-087A-44A9-8842-2EA13BDFF01E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Thunder_Loop" ID="{204CD200-E57A-4FA7-92E0-2E24E31693C2}">
+					<ChildrenList>
+						<Action Name="" ID="{D8A408CF-0F2D-4FC9-AA38-E9614B9238C2}" ShortID="189782513">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Thunder_Loop" ID="{DFABD139-6CDB-4665-94E3-B0CB0C5809D9}" WorkUnitID="{24B22E49-087A-44A9-8842-2EA13BDFF01E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
