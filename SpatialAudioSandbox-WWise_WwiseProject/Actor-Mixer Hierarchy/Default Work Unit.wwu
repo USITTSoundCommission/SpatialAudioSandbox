@@ -199,6 +199,50 @@
 						</Sound>
 					</ChildrenList>
 				</ActorMixer>
+				<Sound Name="Female Radio Announcer" ID="{045511C2-319B-4590-B8A9-7A4EF96D1536}" ShortID="504460240">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{426BF6EB-78DC-4930-8CDF-4FA11AF0E562}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{063A9662-5507-4CE2-89D0-DF453CB6AEEA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Voices, Female, Broadcast Announcer, Radio, Introducing Song 01 SND2986" ID="{57A2E447-A116-4445-99CD-54E9CFE68D93}">
+							<Language>SFX</Language>
+							<AudioFile>Voices, Female, Broadcast Announcer, Radio, Introducing Song 01 SND2986.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1035571852"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Voices, Female, Broadcast Announcer, Radio, Introducing Song 01 SND2986" ID="{57A2E447-A116-4445-99CD-54E9CFE68D93}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Male Airport Announcer" ID="{3D07A7E8-A9D8-4839-A6CE-2E5B41873612}" ShortID="630000798">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{426BF6EB-78DC-4930-8CDF-4FA11AF0E562}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{063A9662-5507-4CE2-89D0-DF453CB6AEEA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Voices, Futzed, Airport Announcement, Male, English, Says All Passengers Flying To Hamburg Make Way To Gate 6 SND32248" ID="{56CC00B6-C1FA-4226-AC4D-F497F6030CB0}">
+							<Language>SFX</Language>
+							<AudioFile>Voices, Futzed, Airport Announcement, Male, English, Says All Passengers Flying To Hamburg Make Way To Gate 6 SND32248.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="583256503"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Voices, Futzed, Airport Announcement, Male, English, Says All Passengers Flying To Hamburg Make Way To Gate 6 SND32248" ID="{56CC00B6-C1FA-4226-AC4D-F497F6030CB0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
