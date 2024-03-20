@@ -3,7 +3,7 @@
   "Project": {
    "Name": "SpatialAudioSandbox-WWise_WwiseProject",
    "GUID": "{A6584FB5-858A-42A2-BB6C-A5A32F714113}",
-   "Generator": "2023.1.1.8417"
+   "Generator": "2023.1.2.8444"
   },
   "CacheRoot": "../.cache",
   "Platforms": [
@@ -31,6 +31,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{78134F19-DC44-A970-EBFB-81ED1F5DC503}"
+  "FileHash": "{224612D7-C847-41A9-178F-14A9E0D263BD}"
  }
 }

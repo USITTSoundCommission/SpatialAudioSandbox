@@ -10,38 +10,12 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{597AF9E6-C6E3-8DDD-EAFA-4E80FF871F0C}",
+    "Hash": "{B56E4007-1669-A71D-BB67-54C61AD370EB}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
-     "Custom": [
-      {
-       "Id": "1019581913",
-       "Name": "AK Channel Router (Custom)",
-       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Channel Router Audio Bus\\[Effect Slot [0]: (AK Channel Router)]\\AK Channel Router (Custom)",
-       "GUID": "{75C87971-B398-49F6-8D8A-2843082C7D9B}",
-       "LibName": "Wwise Channel Router",
-       "LibId": "12517379"
-      }
-     ],
      "AudioDevices": [
-      {
-       "Id": "2317455096",
-       "Name": "No_Output",
-       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
-       "GUID": "{D6331E37-DBDA-4365-8A13-148345F6BEB5}",
-       "LibName": "No Output",
-       "LibId": "11862023"
-      },
-      {
-       "Id": "2712377323",
-       "Name": "ASIO_Output",
-       "ObjectPath": "\\Audio Devices\\Default Work Unit\\ASIO_Output",
-       "GUID": "{FD7F6F21-5374-43BF-989B-279D66919979}",
-       "LibName": "ASIO Output",
-       "LibId": "11010055"
-      },
       {
        "Id": "3859886410",
        "Name": "System",
@@ -54,29 +28,10 @@
     },
     "Busses": [
      {
-      "Id": "1563169099",
-      "Name": "Child Channel Router Audio Bus",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Channel Router Audio Bus\\Child Channel Router Audio Bus",
-      "GUID": "{25FA4D88-F8AF-4B7E-BCAA-127121660E61}"
-     },
-     {
       "Id": "3803692087",
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
-     },
-     {
-      "Id": "3896217141",
-      "Name": "Channel Router Audio Bus",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Channel Router Audio Bus",
-      "GUID": "{98E2167D-9F63-4907-B038-60AFC4F8D4C1}",
-      "PluginRefs": {
-       "Custom": [
-        {
-         "Id": "1019581913"
-        }
-       ]
-      }
      }
     ],
     "GameParameters": [
@@ -150,6 +105,6 @@
     ]
    }
   ],
-  "FileHash": "{554D9239-836B-4C6F-C85D-3EC9B785F0FA}"
+  "FileHash": "{C633825B-58D6-A067-CA8D-FE5F15A19658}"
  }
 }

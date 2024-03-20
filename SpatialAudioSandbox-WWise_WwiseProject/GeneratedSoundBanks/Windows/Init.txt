@@ -12,15 +12,8 @@ Switch	ID	Name	Switch Group			Notes
 	3491524152	SW_AudioChannel_08	SG_AudioChannel			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	1563169099	Child Channel Router Audio Bus			\Default Work Unit\Master Audio Bus\Channel Router Audio Bus\Child Channel Router Audio Bus	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
-	3896217141	Channel Router Audio Bus			\Default Work Unit\Master Audio Bus\Channel Router Audio Bus	
-
-Effect plug-ins	ID	Name	Type				Notes
-	1019581913	AK Channel Router (Custom)	Wwise Channel Router			
 
 Audio Devices	ID	Name	Type				Notes
-	2317455096	No_Output	No Output			
-	2712377323	ASIO_Output	ASIO Output			
 	3859886410	System	System			
 

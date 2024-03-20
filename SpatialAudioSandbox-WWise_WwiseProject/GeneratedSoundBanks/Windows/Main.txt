@@ -38,61 +38,28 @@ Effect plug-ins	ID	Name	Type				Notes
 	24327539	Guitar Distortion (Custom)	Wwise Guitar Distortion			
 	1590660382	Nearly_Forever	Wwise Delay			
 
-Metadata plug-ins	ID	Name	Type				Notes
-	92639971	Channel_Router_Settings_Ch_06 (Custom)	Channel Router Settings			
-	112767528	Channel_Router_Settings_Ch_04 (Custom)	Channel Router Settings			
-	134249359	Channel_Router_Settings_Ch_01 (Custom)	Channel Router Settings			
-	245549728	Channel_Router_Settings_Ch_07 (Custom)	Channel Router Settings			
-	271847948	Channel_Router_Settings_Ch_02 (Custom)	Channel Router Settings			
-	280072860	Channel_Router_Settings_Ch_03 (Custom)	Channel Router Settings			
-	443627165	Channel_Router_Settings_Ch_05 (Custom)	Channel Router Settings			
-	744502176	Channel_Router_Settings_Ch_07	Channel Router Settings			
-	744502177	Channel_Router_Settings_Ch_06	Channel Router Settings			
-	744502178	Channel_Router_Settings_Ch_05	Channel Router Settings			
-	744502179	Channel_Router_Settings_Ch_04	Channel Router Settings			
-	744502180	Channel_Router_Settings_Ch_03	Channel Router Settings			
-	744502181	Channel_Router_Settings_Ch_02	Channel Router Settings			
-	744502182	Channel_Router_Settings_Ch_01	Channel Router Settings			
-	744502191	Channel_Router_Settings_Ch_08	Channel Router Settings			
-	921932054	Channel_Router_Settings_Ch_08 (Custom)	Channel Router Settings			
-	957500616	Channel Router Settings (Custom)	Channel Router Settings			
-
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
-	77004087	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Looping Work Unit\Thunder Actor-Mixer\Thunder_Loop\Thunder_Ch_03\Silence_02\Silence	
-	224116748	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Looping Work Unit\Thunder Actor-Mixer\Thunder_Loop\Thunder_Ch_04\Silence_02\Silence	
-	242338771	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Looping Work Unit\Thunder Actor-Mixer\Thunder_Loop\Thunder_Ch_01\Silence_01\Silence	
-	402186172	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Looping Work Unit\Thunder Actor-Mixer\Thunder_Loop\Thunder_Ch_05\Silence_01\Silence	
-	420227595	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Looping Work Unit\Thunder Actor-Mixer\Thunder_Loop\Thunder_Ch_05\Silence_02\Silence	
-	592592738	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Looping Work Unit\Thunder Actor-Mixer\Thunder_Loop\Thunder_Ch_08\Silence_01\Silence	
-	615283573	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Looping Work Unit\Thunder Actor-Mixer\Thunder_Loop\Thunder_Ch_03\Silence_01\Silence	
-	639777641	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Looping Work Unit\Thunder Actor-Mixer\Thunder_Loop\Thunder_Ch_02\Silence_01\Silence	
-	702359563	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Looping Work Unit\Thunder Actor-Mixer\Thunder_Loop\Thunder_Ch_04\Silence_01\Silence	
-	734181708	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Looping Work Unit\Thunder Actor-Mixer\Thunder_Loop\Thunder_Ch_07\Silence_01\Silence	
-	866236916	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Looping Work Unit\Thunder Actor-Mixer\Thunder_Loop\Thunder_Ch_01\Silence_02\Silence	
-	927869165	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Looping Work Unit\Thunder Actor-Mixer\Thunder_Loop\Thunder_Ch_06\Silence_02\Silence	
-	933930636	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Looping Work Unit\Thunder Actor-Mixer\Thunder_Loop\Thunder_Ch_07\Silence_02\Silence	
-	1014778718	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Looping Work Unit\Thunder Actor-Mixer\Thunder_Loop\Thunder_Ch_02\Silence_02\Silence	
-	1024437803	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Looping Work Unit\Thunder Actor-Mixer\Thunder_Loop\Thunder_Ch_08\Silence_02\Silence	
-	1067924870	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Looping Work Unit\Thunder Actor-Mixer\Thunder_Loop\Thunder_Ch_06\Silence_01\Silence	
+	242338771	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Looping Work Unit\Thunder Actor-Mixer\Thunder_Loop\Thunder\Silence_01\Silence	
+	866236916	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Looping Work Unit\Thunder Actor-Mixer\Thunder_Loop\Thunder\Silence_02\Silence	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	37111965	Wtest_Insects_4	C:\dev\git\USITTSoundCommission\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\INSECTS_CITY-NIGHT_6EXT8-10622 (1)_MONO_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Insects_4		11579488
-	71831613	Wtest_Fountain_3	C:\dev\git\USITTSoundCommission\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\FOUNTAIN_SI-DIGI-X-1_4_1_MONO_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Fountain_3		3927936
-	96028614	Thunder_02	C:\dev\git\USITTSoundCommission\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\THUNDER_Thunder THR01_05_MONO_48068220.wem		\Actor-Mixer Hierarchy\Looping Work Unit\Thunder Actor-Mixer\Thunder_Loop\Thunder_Ch_01\Thunder_02		321780
-	110331556	Thunder_05	C:\dev\git\USITTSoundCommission\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\THUNDER_Thunder THR01_05_MONO_89F27756.wem		\Actor-Mixer Hierarchy\Looping Work Unit\Thunder Actor-Mixer\Thunder_Loop\Thunder_Ch_01\Thunder_05		2060816
-	251602347	Rain_Loop	C:\dev\git\USITTSoundCommission\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\RAIN_SPECIFIC_AMB_INT_Rain_Down_Gutter_MONO_5CFBC5FE.wem		\Actor-Mixer Hierarchy\Looping Work Unit\Looping Sounds Actor-Mixer\Rain_Loop\Rain_Ch_01\Rain_Loop		32356804
-	355258280	Thunder_04	C:\dev\git\USITTSoundCommission\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\THUNDER_Thunder THR01_05_MONO_27839D6C.wem		\Actor-Mixer Hierarchy\Looping Work Unit\Thunder Actor-Mixer\Thunder_Loop\Thunder_Ch_01\Thunder_04		648324
-	363529818	Thunder_06	C:\dev\git\USITTSoundCommission\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\THUNDER_Thunder THR01_05_MONO_452FC8B8.wem		\Actor-Mixer Hierarchy\Looping Work Unit\Thunder Actor-Mixer\Thunder_Loop\Thunder_Ch_01\Thunder_06		1380578
-	375029077	Wtest_Birds_1	C:\dev\git\USITTSoundCommission\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\BIRDS_AnimalSeagull TE01_20_2_MONO_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Birds_1		564320
-	616567313	Wtest_Thunder_6	C:\dev\git\USITTSoundCommission\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\THUNDER_Thunder THR01_05_MONO_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Thunder_6		3941472
-	664252086	Insects_Loop	C:\dev\git\USITTSoundCommission\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\INSECTS_CITY-NIGHT_6EXT8-10622 (1)_MONO_A742AFFF.wem		\Actor-Mixer Hierarchy\Looping Work Unit\Looping Sounds Actor-Mixer\Insects_Loop\Insects_Loop_Ch_01\Insects_Loop		6270014
-	731156525	Thunder_08	C:\dev\git\USITTSoundCommission\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\THUNDER_Thunder THR01_05_MONO_955B3819.wem		\Actor-Mixer Hierarchy\Looping Work Unit\Thunder Actor-Mixer\Thunder_Loop\Thunder_Ch_01\Thunder_08		2889104
-	784644640	WaterFountain_Loop	C:\dev\git\USITTSoundCommission\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\FOUNTAIN_SI-DIGI-X-1_4_1_MONO_A6E68BA8.wem		\Actor-Mixer Hierarchy\Looping Work Unit\Looping Sounds Actor-Mixer\WaterFountain_Loop\WaterFountain_Loop_Ch_01\WaterFountain_Loop		3927984
-	808874868	ChildrenAtPlay_Loop	C:\dev\git\USITTSoundCommission\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\WALLA_CHILDREN_FranceChildren WSS04_04_MONO_36510568.wem		\Actor-Mixer Hierarchy\Looping Work Unit\Looping Sounds Actor-Mixer\ChildrenAtPlay_Loop\ChildrenAtPlay_Loop_Ch_01\ChildrenAtPlay_Loop		17320080
-	871130063	Wtest_Children_7	C:\dev\git\USITTSoundCommission\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\WALLA_CHILDREN_FranceChildren WSS04_04_MONO_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Children_7		17320032
-	916868447	Thunder_07	C:\dev\git\USITTSoundCommission\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\THUNDER_Thunder THR01_05_MONO_9D87C697.wem		\Actor-Mixer Hierarchy\Looping Work Unit\Thunder Actor-Mixer\Thunder_Loop\Thunder_Ch_01\Thunder_07		452254
-	917363238	Thunder_01	C:\dev\git\USITTSoundCommission\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\THUNDER_Thunder THR01_05_MONO_B70FBE76.wem		\Actor-Mixer Hierarchy\Looping Work Unit\Thunder Actor-Mixer\Thunder_Loop\Thunder_Ch_01\Thunder_01		724348
-	968545796	Thunder_03	C:\dev\git\USITTSoundCommission\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\THUNDER_Thunder THR01_05_MONO_30A0F3DB.wem		\Actor-Mixer Hierarchy\Looping Work Unit\Thunder Actor-Mixer\Thunder_Loop\Thunder_Ch_01\Thunder_03		1248532
-	1054646150	Wtest_Rain_5	C:\dev\git\USITTSoundCommission\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\RAIN_SPECIFIC_AMB_INT_Rain_Down_Gutter_MONO_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Rain_5		32356756
-	1056186512	Wtest_Truck_2	C:\dev\git\USITTSoundCommission\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\CITY_SPECIFIC_AMBUrbn_Sanitation Truck Idling Slamming Dumpsters On City Service Road_James Mello_MyHmCS_United States_MONO_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Truck_2		23808096
+	37111965	Wtest_Insects_4	C:\soundlab\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\INSECTS_CITY-NIGHT_6EXT8-10622 (1)_MONO_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Insects_4		11579488
+	71831613	Wtest_Fountain_3	C:\soundlab\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\FOUNTAIN_SI-DIGI-X-1_4_1_MONO_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Fountain_3		3927936
+	96028614	Thunder_02	C:\soundlab\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\THUNDER_Thunder THR01_05_MONO_48068220.wem		\Actor-Mixer Hierarchy\Looping Work Unit\Thunder Actor-Mixer\Thunder_Loop\Thunder\Thunder_02		321780
+	110331556	Thunder_05	C:\soundlab\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\THUNDER_Thunder THR01_05_MONO_89F27756.wem		\Actor-Mixer Hierarchy\Looping Work Unit\Thunder Actor-Mixer\Thunder_Loop\Thunder\Thunder_05		2060816
+	251602347	Rain_Loop	C:\soundlab\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\RAIN_SPECIFIC_AMB_INT_Rain_Down_Gutter_MONO_5CFBC5FE.wem		\Actor-Mixer Hierarchy\Looping Work Unit\Looping Sounds Actor-Mixer\Rain_Loop\Rain\Rain_Loop		32356804
+	355258280	Thunder_04	C:\soundlab\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\THUNDER_Thunder THR01_05_MONO_27839D6C.wem		\Actor-Mixer Hierarchy\Looping Work Unit\Thunder Actor-Mixer\Thunder_Loop\Thunder\Thunder_04		648324
+	363529818	Thunder_06	C:\soundlab\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\THUNDER_Thunder THR01_05_MONO_452FC8B8.wem		\Actor-Mixer Hierarchy\Looping Work Unit\Thunder Actor-Mixer\Thunder_Loop\Thunder\Thunder_06		1380578
+	375029077	Wtest_Birds_1	C:\soundlab\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\BIRDS_AnimalSeagull TE01_20_2_MONO_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Birds_1		564320
+	616567313	Wtest_Thunder_6	C:\soundlab\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\THUNDER_Thunder THR01_05_MONO_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Thunder_6		3941472
+	664252086	Insects_Loop	C:\soundlab\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\INSECTS_CITY-NIGHT_6EXT8-10622 (1)_MONO_A742AFFF.wem		\Actor-Mixer Hierarchy\Looping Work Unit\Looping Sounds Actor-Mixer\Insects_Loop\Insects_Loop\Insects_Loop		6270014
+	731156525	Thunder_08	C:\soundlab\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\THUNDER_Thunder THR01_05_MONO_955B3819.wem		\Actor-Mixer Hierarchy\Looping Work Unit\Thunder Actor-Mixer\Thunder_Loop\Thunder\Thunder_08		2889104
+	784644640	WaterFountain_Loop	C:\soundlab\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\FOUNTAIN_SI-DIGI-X-1_4_1_MONO_A6E68BA8.wem		\Actor-Mixer Hierarchy\Looping Work Unit\Looping Sounds Actor-Mixer\WaterFountain_Loop\WaterFountain_Loop\WaterFountain_Loop		3927984
+	808874868	ChildrenAtPlay_Loop	C:\soundlab\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\WALLA_CHILDREN_FranceChildren WSS04_04_MONO_36510568.wem		\Actor-Mixer Hierarchy\Looping Work Unit\Looping Sounds Actor-Mixer\ChildrenAtPlay_Loop\ChildrenAtPlay_Loop\ChildrenAtPlay_Loop		17320080
+	871130063	Wtest_Children_7	C:\soundlab\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\WALLA_CHILDREN_FranceChildren WSS04_04_MONO_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Children_7		17320032
+	916868447	Thunder_07	C:\soundlab\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\THUNDER_Thunder THR01_05_MONO_9D87C697.wem		\Actor-Mixer Hierarchy\Looping Work Unit\Thunder Actor-Mixer\Thunder_Loop\Thunder\Thunder_07		452254
+	917363238	Thunder_01	C:\soundlab\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\THUNDER_Thunder THR01_05_MONO_B70FBE76.wem		\Actor-Mixer Hierarchy\Looping Work Unit\Thunder Actor-Mixer\Thunder_Loop\Thunder\Thunder_01		724348
+	968545796	Thunder_03	C:\soundlab\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\THUNDER_Thunder THR01_05_MONO_30A0F3DB.wem		\Actor-Mixer Hierarchy\Looping Work Unit\Thunder Actor-Mixer\Thunder_Loop\Thunder\Thunder_03		1248532
+	1054646150	Wtest_Rain_5	C:\soundlab\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\RAIN_SPECIFIC_AMB_INT_Rain_Down_Gutter_MONO_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Rain_5		32356756
+	1056186512	Wtest_Truck_2	C:\soundlab\SpatialAudioSandbox\SpatialAudioSandbox-WWise_WwiseProject\.cache\Windows\SFX\CITY_SPECIFIC_AMBUrbn_Sanitation Truck Idling Slamming Dumpsters On City Service Road_James Mello_MyHmCS_United States_MONO_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wtest_Truck_2		23808096
 

@@ -4,12 +4,6 @@
 		<WorkUnit Name="Default Work Unit" ID="{49F573E7-4FCA-447F-A3B9-71C940678982}" PersistMode="Standalone">
 			<ChildrenList>
 				<AudioDevice Name="System" ID="{873C58EB-2C9F-48BF-8A8E-ECA302E84F9B}" PluginName="System" CompanyID="0" PluginID="174" PluginType="7"/>
-				<AudioDevice Name="No_Output" ID="{D6331E37-DBDA-4365-8A13-148345F6BEB5}" PluginName="No Output" CompanyID="0" PluginID="181" PluginType="7"/>
-				<AudioDevice Name="ASIO_Output" ID="{FD7F6F21-5374-43BF-989B-279D66919979}" PluginName="ASIO Output" CompanyID="0" PluginID="168" PluginType="7">
-					<PropertyList>
-						<Property Name="ChannelConfig" Type="int32" Value="8"/>
-					</PropertyList>
-				</AudioDevice>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioDevices>

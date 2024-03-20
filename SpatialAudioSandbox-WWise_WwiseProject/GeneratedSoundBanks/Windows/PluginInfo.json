@@ -11,13 +11,6 @@
     "StaticLib": "AkSilenceSource"
    },
    {
-    "LibName": "Wwise Tone Generator",
-    "LibId": "6684674",
-    "Type": "Source",
-    "DLL": "AkToneGen",
-    "StaticLib": "AkToneSource"
-   },
-   {
     "LibName": "Wwise Delay",
     "LibId": "6946819",
     "Type": "Effect",
@@ -32,37 +25,11 @@
     "StaticLib": "AkGuitarDistortionFX"
    },
    {
-    "LibName": "ASIO Output",
-    "LibId": "11010055",
-    "Type": "AudioDevice",
-    "DLL": "ASIO",
-    "StaticLib": "ASIOSourceSink"
-   },
-   {
     "LibName": "System",
     "LibId": "11403271",
     "Type": "AudioDevice"
-   },
-   {
-    "LibName": "No Output",
-    "LibId": "11862023",
-    "Type": "AudioDevice"
-   },
-   {
-    "LibName": "Wwise Channel Router",
-    "LibId": "12517379",
-    "Type": "Effect",
-    "DLL": "AkChannelRouter",
-    "StaticLib": "AkChannelRouterFX"
-   },
-   {
-    "LibName": "Channel Router Settings",
-    "LibId": "59179017",
-    "Type": "Metadata",
-    "DLL": "AkChannelRouter",
-    "StaticLib": "AkChannelRouterMeta"
    }
   ],
-  "FileHash": "{3FE92EAD-B067-5D95-1344-8AB75F002BDF}"
+  "FileHash": "{285174F4-1148-468A-1D77-86F81D5571A2}"
  }
 }
