@@ -672,6 +672,13 @@
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Bird Actor-Mixer" ID="{343B751B-54C0-4478-859F-F27C59A4C05B}" ShortID="71777309">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-35</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{426BF6EB-78DC-4930-8CDF-4FA11AF0E562}"/>
